@@ -1,0 +1,15 @@
+/* src/components/Headers.css */
+.header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.header__subtitle {
+  font-size: 18px;
+  color: #555;
+}
