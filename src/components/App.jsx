@@ -1,66 +1,29 @@
 // src/components/App.js
-import { useState, useEffect } from "react";
+
+import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./Header/Header";
-import SearchForm from "../components/Main/components/SearchForm/SearchForm";
-import Preloader from "../components/Main/components/Preloader/Preloader";
-import Gallery from "../components/Main/components/Gallery/Gallery";
 import Footer from "./Footer/Footer";
-import Modal from "../components/Main/components/Modal/Modal";
+import Navbar from "./Navbar/Navbar";
+import ScrollToTop from "./ScrollToTop/ScrollToTop";
+import Main from "./Main/Main";
+import Modal from "./Main/components/Modal/Modal";
 
-import AboutAuthor from "../pages/AboutAuthor";
-import AboutApp from "../pages/AboutApp";
-
-import { searchArtworks } from "../utils/europeanaApi";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Genealogy from "../pages/Genealogy";
+import GenealogyStory from "../components/GenealogyStory/GenealogyStory";
 
 function App() {
-  const [artworks, setArtworks] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
   const [selectedIndex, setSelectedIndex] = useState(null);
-
-  function handleSearch(query) {
-    setIsLoading(true);
-
-    searchArtworks(query)
-      .then((data) => {
-        setArtworks(data);
-      })
-      .catch((err) => {
-        console.error("Erro ao buscar artworks:", err);
-      })
-      .finally(() => {
-        setIsLoading(false);
-      });
-  }
-
-  useEffect(() => {
-    setIsLoading(true);
-
-    searchArtworks("*")
-      .then((data) => {
-        setArtworks(data);
-      })
-      .catch((err) => {
-        console.error("Erro ao buscar artworks:", err);
-      })
-      .finally(() => {
-        setIsLoading(false);
-      });
-  }, []);
-
-  const filteredArtworks = artworks.filter((art) =>
-    art.title.toLowerCase().includes(searchQuery.toLowerCase()),
-  );
+  const [artworks, setArtworks] = useState([]);
 
   const selectedArtwork =
-    selectedIndex !== null ? filteredArtworks[selectedIndex] : null;
+    selectedIndex !== null ? artworks[selectedIndex] : null;
 
   function handleNext() {
-    setSelectedIndex((prev) =>
-      prev < filteredArtworks.length - 1 ? prev + 1 : prev,
-    );
+    setSelectedIndex((prev) => (prev < artworks.length - 1 ? prev + 1 : prev));
   }
 
   function handlePrev() {
@@ -69,51 +32,51 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="page">
-        <Header />
+        <Routes>
+          {/* HOME */}
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <Main
+                  onImageClick={setSelectedIndex}
+                  artworks={artworks}
+                  setArtworks={setArtworks}
+                />
+              </>
+            }
+          />
 
-        <div style={{ flex: 1 }}>
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
-                  <SearchForm
-                    searchQuery={searchQuery}
-                    setSearchQuery={setSearchQuery}
-                    onSearch={handleSearch}
-                  />
+          {/* ABOUT */}
+          <Route path="/author" element={<About />} />
 
-                  {isLoading && <Preloader />}
+          {/* CONTACT */}
+          <Route path="/contact" element={<Contact />} />
 
-                  <Gallery
-                    artworks={filteredArtworks}
-                    onImageClick={setSelectedIndex}
-                  />
-                </>
-              }
-            />
+          {/* GENEALOGY */}
+          <Route path="/genealogy" element={<Genealogy />} />
 
-            <Route path="/author" element={<AboutAuthor />} />
-            <Route path="/app" element={<AboutApp />} />
-          </Routes>
-        </div>
+          <Route path="/story" element={<GenealogyStory />} />
+        </Routes>
 
         <Footer />
-      </div>
 
-      {selectedArtwork && (
-        <Modal
-          image={selectedArtwork?.image}
-          title={selectedArtwork?.title}
-          museum={selectedArtwork?.museum}
-          currentIndex={selectedIndex}
-          total={filteredArtworks.length}
-          onClose={() => setSelectedIndex(null)}
-          onNext={handleNext}
-          onPrev={handlePrev}
-        />
-      )}
+        {selectedArtwork && (
+          <Modal
+            image={selectedArtwork.image}
+            title={selectedArtwork.title}
+            museum={selectedArtwork.museum}
+            currentIndex={selectedIndex}
+            total={artworks.length}
+            onClose={() => setSelectedIndex(null)}
+            onNext={handleNext}
+            onPrev={handlePrev}
+          />
+        )}
+      </div>
     </BrowserRouter>
   );
 }

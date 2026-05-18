@@ -1,4 +1,5 @@
 // src/components/Main/components/Modal/Modal.jsx
+
 import { useEffect } from "react";
 import "../../../../blocks/modal.css";
 

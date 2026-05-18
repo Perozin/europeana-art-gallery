@@ -1,0 +1,56 @@
+{
+  "viewTree": "Stammbaum anzeigen",
+  "back": "Zurück",
+
+  "edit": "Bearbeiten",
+  "save": "Speichern",
+  "saving": "Wird gespeichert...",
+  "cancel": "Abbrechen",
+
+  "delete": "Löschen",
+  "deleting": "Wird gelöscht...",
+  "confirmDelete": "Löschen bestätigen",
+  "confirmMessage": "Möchten Sie {{name}} wirklich löschen?",
+  "yesDelete": "Ja, löschen",
+
+  "addChild": "Kind",
+  "addSpouse": "Ehepartner",
+
+  "fullName": "Vollständiger Name",
+  "relation": "Verwandtschaft auswählen",
+  "place": "Ort",
+  "born": "Geburt",
+  "death": "Tod",
+
+  "image": "Bild-URL",
+  "chooseImage": "Bild auswählen",
+  "noFile": "Keine Datei ausgewählt",
+  "showImage": "Bild im Stammbaum anzeigen",
+
+  "child": "Kind",
+  "father": "Vater",
+  "mother": "Mutter",
+  "grandfather": "Großvater",
+  "grandmother": "Großmutter",
+
+  "secondGrandfather": "Urgroßvater",
+  "secondGrandmother": "Urgroßmutter",
+
+  "thirdGrandfather": "Ururgroßvater",
+  "thirdGrandmother": "Ururgroßmutter",
+
+  "fourthGrandfather": "3×Urgroßvater",
+  "fourthGrandmother": "3×Urgroßmutter",
+
+  "fifthGrandfather": "4×Urgroßvater",
+  "fifthGrandmother": "4×Urgroßmutter",
+
+  "sixthGrandfather": "5×Urgroßvater",
+  "sixthGrandmother": "5×Urgroßmutter",
+
+  "seventhGrandfather": "6×Urgroßvater",
+  "seventhGrandmother": "6×Urgroßmutter",
+
+  "eighthGrandfather": "7×Urgroßvater",
+  "eighthGrandmother": "7×Urgroßmutter"
+}

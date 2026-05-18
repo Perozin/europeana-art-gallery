@@ -1,56 +1,47 @@
 // src/components/Header/Header.jsx
-import { Link } from "react-router-dom";
+
 import "../../blocks/header.css";
+import Navbar from "../Navbar/Navbar";
 import heroImage from "../../assets/images/ArtGallery.png";
-import logo from "../../assets/images/logo_white.png";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+  const { t } = useTranslation("header");
+
   return (
     <header className="header">
       {/* NAV */}
-      <nav className="nav">
-        <div className="nav__logo">
-          <img src={logo} alt="nav logo image" className="nav__logo-image" />
-        </div>
-
-        <div className="nav__links">
-          <Link to="/">Home</Link>
-          <Link to="/author">About Me</Link>
-          <Link to="/app">About App</Link>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* HERO */}
       <div className="header__hero">
         <div className="header__text">
           <h1 className="header__title">
-            <span>European Art</span>
-            Explorer
+            <span>{t("titleHighlight")}</span>
+            {t("title")}
           </h1>
 
-          <p className="header__description">
-            Explore artworks from European museums in a modern and immersive
-            way.
-          </p>
+          <p className="header__description">{t("description")}</p>
         </div>
 
-        <img
-          src={heroImage}
-          alt="Art gallery illustration"
-          className="header__image"
-        />
+        <div className="header__container">
+          <img src={heroImage} alt={t("imageAlt")} className="header__image" />
+        </div>
       </div>
 
       {/* FOOTER HEADER */}
       <div className="header__footer">
-        <div>
-          <p className="label">Author</p>
-          <p>Marcio Perozin</p>
+        <div className="header__info">
+          <p className="header__paragraph">{t("searchTitle")}</p>
+          <p className="header__paragraph">{t("search1")}</p>
+          <p className="header__paragraph">{t("search2")}</p>
+          <p className="header__paragraph">{t("search3")}</p>
         </div>
 
-        <div>
-          <p className="label">Job</p>
-          <p>Full-Stack Developer</p>
+        <div className="header__info header__info_address">
+          <p className="header__paragraph header__paragraph_address">
+            {t("location")}
+          </p>
         </div>
       </div>
     </header>

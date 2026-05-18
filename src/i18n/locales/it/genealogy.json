@@ -1,0 +1,36 @@
+{
+  "rootsTitle": "LE MIE RADICI",
+  "roots": "EUROPEE",
+  "familyName": "PERUSIN & SQUIZZATO",
+  "familyHistory": "STORIA DELLA FAMIGLIA",
+  "familyTree": "ALBERO GENEALOGICO",
+  "viewTree": "Guarda l'albero",
+  "origin": "ORIGINE",
+  "country": "ITALIA",
+  "region": "(LOREGGIA, VENETO)",
+  "perugia": "POSSIBILE COLLEGAMENTO CON PERUGIA",
+  "timeline": "LINEA DEL TEMPO",
+  "veniceRepublic": "REPUBBLICA DI VENEZIA",
+  "italy": "ITALIA",
+  "brazil": "BRASILE",
+  "saoPaulo": "INTERNO DI SAN PAOLO",
+  "storytelling": "STORIA",
+  "storyDescription": "Esplora la storia completa della mia famiglia",
+  "viewStory": "VEDI STORIA",
+  "quote": "\"Questo progetto collega l'arte europea alle mie radici europee.\"",
+  "noData": "Nessun dato",
+
+  "alt": {
+    "familyPhoto": "I miei genitori, i miei fratelli e io.",
+    "greatGrandparents": "I miei bisnonni Giuseppe Perusin e Lucia Squizzato.",
+    "dna": "Icona DNA",
+    "people": "Icona persone",
+    "atom": "Icona atomo",
+    "planet": "Icona pianeta",
+    "arrow": "Freccia",
+    "ball": "Icona sfera",
+    "italyMap": "Mappa dell'Italia",
+    "church": "Chiesa italiana.",
+    "book": "Libro aperto."
+  }
+}

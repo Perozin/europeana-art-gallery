@@ -1,4 +1,5 @@
 /* src/blocks/modal.css */
+
 @keyframes fadeImage {
   from {
     opacity: 0;
@@ -10,6 +11,10 @@
     transform: scale(1);
   }
 }
+
+/* =========================
+   BASE
+========================= */
 
 .modal {
   position: fixed;
@@ -26,7 +31,11 @@
   z-index: 9999;
 }
 
-/* CONTAINER */
+/* =========================
+   CONTAINER
+========================= */
+
+/* Modal */
 .modal__content {
   position: relative;
   max-width: 900px;
@@ -34,67 +43,178 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
 }
 
-/* CONTADOR CENTRALIZADO */
+/* Counter */
 .modal__counter {
   position: absolute;
-  top: -30px;
+  top: -40px;
   color: white;
 }
 
-/* IMAGEM */
+/* Image Content */
 .modal__image-container {
-  width: 100%;
+  max-width: 433px;
+  max-height: 540px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px 8px 0 0;
+  padding: 0;
+  margin: 10px auto;
 }
 
+/* Image */
 .modal__image {
+  max-width: 75vw;
+  max-height: 65vh;
   width: 100%;
-  max-height: 70vh;
+  height: 100%;
   object-fit: contain;
+  display: block;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
-/* INFO */
+/* Info */
 .modal__info {
-  width: 100%;
-  background: white;
-  padding: 15px;
-  border-radius: 0 0 8px 8px;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px 8px 0 0;
+  padding: 0;
+  margin: 0.1px auto;
+  display: block;
 }
 
-/* BOTÃO FECHAR */
+.modal__title {
+  max-width: 400px;
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.375em;
+  color: rgba(250, 250, 250);
+  background-color: transparent;
+  margin: 0 auto 5px 0;
+  text-align: center;
+}
+
+body.dark .modal__title {
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.modal__museum {
+  max-width: 400px;
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.25em;
+  color: rgba(250, 250, 250, 0.6);
+  background-color: transparent;
+  margin: 0 auto 0 0;
+  text-align: center;
+}
+
+body.dark .modal__museum {
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-weight: 400;
+  color: #cccccc;
+}
+
+/* Close button */
 .modal__close {
+  max-width: 40px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.75em;
+  color: white;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
   position: absolute;
   top: -40px;
-  right: 0;
-  font-size: 28px;
-  color: white;
-  background: none;
-  border: none;
-  cursor: pointer;
+  right: 10px;
 }
 
-/* SETAS */
+/* Arrow */
 .modal__arrow {
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Serif", "Times New Roman", "Serif";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5em;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 50%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 40px;
-  color: white;
-  background: rgba(0, 0, 0, 0.3);
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
   cursor: pointer;
 }
 
 .modal__arrow_left {
-  left: -60px;
+  left: 10px;
 }
 
 .modal__arrow_right {
-  right: -60px;
+  right: 10px;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+/* -------------  1024px e 900px  ------------- */
+@media screen and (max-width: 1024px), screen and (max-width: 900px) {
+  .modal__title {
+    font-size: 1.063em;
+    line-height: 1.313em;
+  }
+  .modal__museum {
+    font-size: 0.938em;
+    line-height: 1.188em;
+  }
+}
+
+/* -------------  768px, 656px e 544px ------------- */
+@media screen and (max-width: 768px),
+  screen and (max-width: 656px),
+  screen and (max-width: 544px) {
+  .modal__title {
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .modal__museum {
+    font-size: 0.875em;
+    line-height: 1.125em;
+  }
+}
+
+/* -------------  500px, 432px, 375px e 320px ------------- */
+@media screen and (max-width: 500px),
+  screen and (max-width: 432px),
+  screen and (max-width: 375px),
+  screen and (max-width: 320px) {
+  .modal__title {
+    font-size: 0.938em;
+    line-height: 1.188em;
+  }
+  .modal__museum {
+    font-size: 0.813em;
+    line-height: 1.063em;
+  }
 }

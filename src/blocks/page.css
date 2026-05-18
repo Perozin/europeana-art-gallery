@@ -1,0 +1,78 @@
+/* src/blocks/page.css */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =========================
+   BASE
+========================= */
+
+.page {
+  min-height: 100%;
+  width: 100%;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.25em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+body.dark .page {
+  width: 100%;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.25em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+}
+
+.page-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.page-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.page-link {
+  color: #61dafb;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (prefers-reduced-motion: no-preference) {
+  .page-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* =========================
+   BEHAVIOR
+========================= */
+
+* {
+  scroll-behavior: smooth;
+}

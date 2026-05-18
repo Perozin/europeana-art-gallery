@@ -1,0 +1,29 @@
+{
+  "photoAlt": "Foto des Autors",
+  "title": "Über den Autor",
+  "subtitle": "Brasilianischer Entwickler mit italienischer Staatsbürgerschaft im Übergang in die Technologiebranche.",
+  "author": {
+    "title": "Der Autor",
+    "item1": "Europäische Museumswerke erkunden",
+    "item2": "Moderne und immersive Erfahrung"
+  },
+  "expertise": {
+    "title": "Fachkenntnisse",
+    "item1": "JavaScript, React",
+    "item2": "HTML & CSS",
+    "item3": "Git & GitHub",
+    "item4": "REST-APIs"
+  },
+  "journey": {
+    "title": "Werdegang",
+    "item1": "Abschluss in Informationssystemen",
+    "item2": "Erfahrung in Telekommunikation und Daten",
+    "item3": "Beruflicher Wechsel in die Technologiebranche"
+  },
+  "passions": {
+    "title": "Leidenschaften",
+    "item1": "Technologie",
+    "item2": "Europäische Kultur",
+    "item3": "Kunst und Geschichte"
+  }
+}

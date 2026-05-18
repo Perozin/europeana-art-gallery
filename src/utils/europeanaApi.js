@@ -1,4 +1,5 @@
 // src/utils/europeanaApi.js
+
 const API_KEY = "lvollbasmal";
 
 export function searchArtworks(query) {

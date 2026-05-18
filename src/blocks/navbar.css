@@ -1,0 +1,378 @@
+/* src/blocks/navbar.css */
+
+/* =========================
+   BASE
+========================= */
+
+.nav {
+  max-height: 39px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0%;
+}
+
+body.dark .nav {
+  background-color: #1a1a1a;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 39px;
+}
+
+/* Logo */
+.nav__logo {
+  max-width: 200px;
+  max-height: 39px;
+}
+
+/* Image */
+.nav__image {
+  width: 100%;
+  height: auto;
+  transform: translate(-60px, -34px);
+}
+
+/* Links */
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0 0 auto;
+  padding: 0;
+}
+
+.nav__item {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav__links a {
+  font-weight: 500;
+  color: #2c2c2c;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+body.dark .nav__links a {
+  color: #f5f5f5;
+}
+
+body.dark .nav__links a:hover,
+.nav__links a:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+}
+
+/* Language */
+.nav__language {
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__language-button {
+  font-weight: 500;
+  color: #2c2c2c;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__language-button:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+}
+
+body.dark .nav__language-button {
+  color: #f5f5f5;
+}
+
+.nav__language-dropdown {
+  max-width: 80px;
+  width: 100%;
+  background: #a8c8e6;
+  border-radius: 8px;
+  padding: 10px;
+  list-style-type: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 25px;
+  right: -3px;
+  z-index: 1;
+}
+
+body.dark .nav__language-dropdown {
+  background: #484848;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.nav__language-item {
+  font-weight: 500;
+  color: #2c2c2c;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+body.dark .nav__language-item {
+  color: #f5f5f5;
+}
+
+.nav__language-item:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body.dark .nav__language-item:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+}
+
+/* =========================
+   TOOGLE
+========================= */
+
+.nav__toggle {
+  max-width: 50px;
+  max-height: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.nav__toggle-icon {
+  max-width: 32px;
+  min-height: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+body.dark .nav__toggle-icon {
+  background-color: #cccccc;
+}
+
+/* Button theme*/
+.nav__theme-button {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+/* Icon Theme */
+.nav__theme-icon {
+  max-width: 28px;
+  max-height: 28px;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+.nav__theme-icon:hover {
+  transform: scale(1.15) rotate(10deg);
+  filter: brightness(1.2);
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+/* -------------  1024  ------------- */
+@media (max-width: 1024px) {
+  /* language */
+  .nav__language-dropdown {
+    right: -2px;
+  }
+}
+
+/* -------------  900  ------------- */
+@media (max-width: 900px) {
+  /* Link */
+  .nav__links {
+    max-width: 120px;
+    max-height: 270px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    gap: 15px;
+    display: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+  }
+
+  body.dark .nav__links {
+    background-color: #444;
+  }
+
+  .nav__links_open {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+
+  body.dark .nav__links_open {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+  }
+
+  .nav__item {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  /* Toggle */
+  .nav__toggle {
+    display: block;
+  }
+
+  /* language */
+  .nav__language-dropdown {
+    max-width: 80px;
+    right: 130px;
+  }
+}
+
+/* -------------  768  ------------- */
+@media (max-width: 768px) {
+  /* Image */
+  .nav__image {
+    transform: translateX(-60px) translateY(-37px);
+  }
+
+  /* Links */
+  .nav__links_open {
+    right: 35px;
+  }
+
+  /* Language */
+  .nav__language-dropdown {
+    right: 130px;
+  }
+}
+
+/* -------------  656  ------------- */
+@media (max-width: 656px) {
+  /* Nav */
+  .nav {
+    max-height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border: 0;
+  }
+
+  /* Logo */
+  .nav__logo {
+    max-width: 200px;
+    max-height: 39px;
+  }
+
+  /* Image */
+  .nav__image {
+    transform: translateX(-15px) translateY(-37px);
+  }
+
+  /* Links */
+  .nav__links_open {
+    right: 0;
+    top: 40px;
+  }
+
+  /* Language */
+  .nav__language-dropdown {
+    right: 130px;
+  }
+}
+
+/* -------------  544  ------------- */
+@media (max-width: 544px) {
+  /* Logo */
+  .nav__logo {
+    max-height: 111px;
+  }
+
+  /* Image */
+  .nav__image {
+    transform: translateX(-13px) translateY(0);
+  }
+}
+
+/* -------------  500  ------------- */
+@media (max-width: 500px) {
+  /* Logo */
+  .nav__logo {
+    max-width: 445px;
+  }
+}
+
+/* -------------  432  ------------- */
+@media (max-width: 432px) {
+  /* Logo */
+  .nav__logo {
+    max-width: 337px;
+  }
+
+  /* Links */
+  .nav__links {
+    max-width: 100px;
+    max-height: 270px;
+  }
+
+  /* Itens */
+  .nav__item {
+    font-size: 0.875em;
+    line-height: 1.125em;
+  }
+
+  /* Language */
+  .nav__language-dropdown {
+    right: 110px;
+  }
+}
+
+/* -------------  375  ------------- */
+@media (max-width: 375px) {
+  /* Logo */
+  .nav__logo {
+    max-width: 280px;
+  }
+}
+
+/* -------------  320  ------------- */
+@media (max-width: 320px) {
+  /* Image */
+  .nav__image {
+    margin: auto;
+  }
+}
