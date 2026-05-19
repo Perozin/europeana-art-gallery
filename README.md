@@ -30,6 +30,8 @@
 
   * [Visão Geral](#-visão-geral)
   * [Arquitetura do Projeto](#-arquitetura-do-projeto)
+  * [Demonstração em Vídeo](#-demonstração-em-vídeo)
+  * [Demonstração Visual](#-demonstração-visual)
   * [Funcionalidades](#-funcionalidades)
   * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
   * [Integração com APIs](#-integração-com-apis)
@@ -44,6 +46,8 @@
 
   * [Overview](#-overview)
   * [Project Architecture](#-project-architecture)
+  * [Video Demonstration](#-video-demonstration)
+  * [Visual Demonstration](#-visual-demonstration)
   * [Features](#-features)
   * [Technologies Used](#-technologies-used)
   * [API Integration](#-api-integration)
@@ -136,7 +140,6 @@ Este vídeo demonstra:
 * Experiência de busca
 * Filtros
 * Páginas de detalhes da obra de arte
-* Sistema de favoritos
 * Carregamento lento (lazy loading)
 * Suporte multilíngue
 * Navegação e acessibilidade
@@ -229,11 +232,11 @@ Este vídeo demonstra:
 * Italiano
 * Alemão
 
-### ❤️ Favoritos
+### 🚀 Estrutura Preparada para Expansão
 
-* Persistência local de favoritos
-* Armazenamento no navegador
-* Experiência personalizada
+* Arquitetura preparada para futuras funcionalidades
+* Possível integração futura de sistema de favoritos
+* Estrutura compatível com persistência local e backend
 
 ### 🌳 Genealogia e Storytelling
 
@@ -474,7 +477,6 @@ In addition to the digital gallery experience, the project also includes:
 * Multilingual support
 * Genealogy storytelling
 * D3.js family tree visualization
-* Favorites system
 * Dynamic navigation
 * Lazy loading
 * Scalable architecture for future backend integration
@@ -535,7 +537,6 @@ This video demonstrates:
 * Search experience
 * Filters
 * Artwork details pages
-* Favorites system
 * Lazy loading
 * Multilingual support
 * Navigation and accessibility
@@ -628,11 +629,11 @@ This video demonstrates:
 * Italian
 * German
 
-### ❤️ Favorites System
+### 🚀 Expansion-Ready Architecture
 
-* Local persistence
-* Browser storage
-* Personalized experience
+* Architecture prepared for future feature expansion
+* Possible future favorites system integration
+* Structure compatible with local persistence and backend evolution
 
 ### 🌳 Genealogy and Storytelling
 
@@ -873,7 +874,6 @@ L'applicazione integra l'API pubblica di Europeana per consentire l'esplorazione
 * Supporto multilingue
 * Storytelling genealogico
 * Visualizzazione D3.js
-* Sistema di preferiti
 * Design responsivo
 * Architettura scalabile
 
@@ -908,7 +908,6 @@ Die Anwendung integriert die öffentliche Europeana-API, um Kunstwerke, historis
 * Mehrsprachiges System
 * Genealogisches Storytelling
 * D3.js-Visualisierung
-* Favoritensystem
 * Responsives Design
 * Skalierbare Architektur
 
