@@ -29,10 +29,10 @@
 * 🇧🇷 [Português](#-português)
 
   * [Visão Geral](#-visão-geral)
-  * [Arquitetura do Projeto](#-arquitetura-do-projeto)
+  * [Arquitetura do Projeto](#️-arquitetura-do-projeto)
   * [Demonstração em Vídeo](#-demonstração-em-vídeo)
   * [Demonstração Visual](#-demonstração-visual)
-  * [Funcionalidades](#-funcionalidades)
+  * [Funcionalidades](#-funcionalidades-1)
   * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
   * [Integração com APIs](#-integração-com-apis)
   * [Internacionalização](#-internacionalização)
@@ -40,7 +40,7 @@
   * [Estrutura do Projeto](#-estrutura-do-projeto)
   * [Como Executar Localmente](#-como-executar-localmente)
   * [Roadmap Futuro](#-roadmap-futuro)
-  * [Autor](#-autor)
+  * [Autor](#-autor-1)
 
 * 🇺🇸 [English](#-english)
 
