@@ -112,49 +112,49 @@ O projeto foi estruturado utilizando arquitetura baseada em componentes reutiliz
 
 ## 🎥 Demonstração em Vídeo
 
-### 🎬 Video 1 — Overview + Architecture
+### 🎬 Video 1 — Visão Geral + Arquitetura
 
-[▶️ Watch Video 1](https://www.loom.com/share/7f33bf24bdcd4edfa4e59e9911dd852b)
+[▶️ Assistir ao Vídeo 1](https://www.loom.com/share/7f33bf24bdcd4edfa4e59e9911dd852b)
 
-This video presents:
+Este vídeo apresenta:
 
-* Project overview
-* React + Vite architecture
-* Europeana API integration
-* Internationalization system
-* Project structure
-* Responsive design
-
----
-
-### 🎬 Video 2 — Features + User Experience
-
-[▶️ Watch Video 2](https://www.loom.com/share/1a935f1059a8477bb37829d9ee13674b)
-
-This video demonstrates:
-
-* Search experience
-* Filters
-* Artwork details pages
-* Favorites system
-* Lazy loading
-* Multilingual support
-* Navigation and accessibility
+* Visão geral do projeto
+* Arquitetura React + Vite
+* Integração com a API da Europeana
+* Sistema de internacionalização
+* Estrutura do projeto
+* Design responsivo
 
 ---
 
-### 🎬 Video 3 — Genealogy + Story + D3
+### 🎬 Video 2 — Recursos + Experiência do Usuário
 
-[▶️ Watch Video 3](https://www.loom.com/share/d6219fbebce34402b2e4c0fabc17d403)
+[▶️ Assista ao Vídeo 2](https://www.loom.com/share/1a935f1059a8477bb37829d9ee13674b)
 
-This video demonstrates:
+Este vídeo demonstra:
 
-* Genealogy storytelling
-* Interactive family tree visualization
-* D3.js rendering
-* Dynamic layouts
-* Historical image galleries
-* Cultural exploration
+* Experiência de busca
+* Filtros
+* Páginas de detalhes da obra de arte
+* Sistema de favoritos
+* Carregamento lento (lazy loading)
+* Suporte multilíngue
+* Navegação e acessibilidade
+
+---
+
+### 🎬 Video 3 — Genealogia + História + D3
+
+[▶️ Assista ao Vídeo 3](https://www.loom.com/share/d6219fbebce34402b2e4c0fabc17d403)
+
+Este vídeo demonstra:
+
+* Narrativa genealógica
+* Visualização interativa de árvores genealógicas
+* Renderização com D3.js
+* Layouts dinâmicos
+* Galerias de imagens históricas
+* Exploração cultural
 
 ⬆ [Voltar ao topo](#-table-of-contents)
 
@@ -162,51 +162,51 @@ This video demonstrates:
 
 ## 📸 Demonstração Visual
 
-### 🌍 Hero Interface
+### 🌍 Interface Hero
 
-![Hero Interface](./src/assets/readme/hero_screenshot_dark.png)
-
----
-
-### 🔎 Search Experience
-
-![Search Experience](./src/assets/readme/search_experience.png)
+![Interface Hero](./src/assets/readme/hero_screenshot_dark.png)
 
 ---
 
-### 🎨 Artwork Details Page
+### 🔎 Experiência de Pesquisa
 
-![Artwork Details](./src/assets/readme/artwork_details_page.png)
-
----
-
-### 🌍 Multilingual System
-
-![Multilingual System](./src/assets/readme/multilingual_system.png)
+![Experiência de Pesquisa](./src/assets/readme/search_experience.png)
 
 ---
 
-### 🌳 Genealogy Storytelling
+### 🎨 Página de detalhes da obra de arte
 
-![Genealogy Story](./src/assets/readme/genealogy_story.png)
-
----
-
-### 🌳 Genealogy Page
-
-![Genealogy Page](./src/assets/readme/genealogy_page.png)
+![Detalhes da Obra de Arte](./src/assets/readme/artwork_details_page.png)
 
 ---
 
-### 🌳 D3 Tree Visualization — Zoom
+### 🌍 Sistema multilíngue
 
-![D3 Tree Zoom](./src/assets/readme/d3_tree_visualization_zoom.png)
+![Sistema Multilíngue](./src/assets/readme/multilingual_system.png)
 
 ---
 
-### 🌳 D3 Tree Visualization — Pan
+### 🌳 Narrativa Genealógica
 
-![D3 Tree Pan](./src/assets/readme/d3_tree_visualization_pan.png)
+![História Genealogica](./src/assets/readme/genealogy_story.png)
+
+---
+
+### 🌳 Página de Genealogia
+
+![Página de Genealogia](./src/assets/readme/genealogy_page.png)
+
+---
+
+### 🌳 Visualização de Árvore D3 — Zoom
+
+![Zoom da árvore D3](./src/assets/readme/d3_tree_visualization_zoom.png)
+
+---
+
+### 🌳 Visualização de árvore D3 — Panorâmica
+
+![Árvore Panorâmica D3](./src/assets/readme/d3_tree_visualization_pan.png)
 
 ⬆ [Voltar ao topo](#-table-of-contents)
 
