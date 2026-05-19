@@ -1,8 +1,8 @@
 // src/data/storyImages.js
 
 import italy_map from "../assets/images/italy_map.png";
-import perugia from "../assets/images/perugia.jpg";
-import migration from "../assets/images/migration.jpg";
+import perugia from "../assets/images/perugia.png";
+import migration from "../assets/images/migration.png";
 import landing from "../assets/images/desembarque.png";
 import passport from "../assets/images/passporto.png";
 import sp_map from "../assets/images/sp_map.png";

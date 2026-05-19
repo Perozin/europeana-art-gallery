@@ -25,7 +25,7 @@
 ========================= */
 
 .genealogy {
-  background-image: url("../assets/images/bkg_header.svg");
+  background-image: url("../assets/images/bkg_light.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,7 +37,7 @@
 }
 
 body.dark .genealogy {
-  background-image: url("../assets/images/bkg_light.svg");
+  background-image: url("../assets/images/bkg_dark.svg");
   background-position: left;
 }
 
@@ -233,7 +233,6 @@ body.dark .genealogy__card_dark {
   max-width: 34px;
   max-height: 24px;
   background: #256b79;
-  border-color: none;
   opacity: 0.95;
   margin: 0 auto;
 }
@@ -852,7 +851,7 @@ body.dark .genealogy__quote {
   }
 
   .genealogy__ancestry {
-    min-height: 14 0.5px;
+    min-height: 14px;
   }
 
   /* FAMILY TREE */

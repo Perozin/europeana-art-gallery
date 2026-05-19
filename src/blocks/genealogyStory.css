@@ -5,12 +5,12 @@
 ========================= */
 
 .story {
-  background-image: url(../assets/images/bkg_header.svg);
+  background-image: url(../assets/images/bkg_light.svg);
   padding: 30px 80px 40px;
 }
 
 body.dark .story {
-  background-image: url(../assets/images/bkg_light.svg);
+  background-image: url(../assets/images/bkg_dark.svg);
   padding: 30px 80px 40px;
 }
 

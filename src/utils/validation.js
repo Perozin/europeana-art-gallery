@@ -81,7 +81,7 @@ export function validateField(name, value, rule, t) {
     const isBase64 =
       val.startsWith("data:image/");
 
-    // accept caminhos locais
+    // accept local routes
     const isRelativePath =
       /^\/|^\.\//.test(val);
 

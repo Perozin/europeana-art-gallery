@@ -82,6 +82,8 @@ export default function About() {
             <li className="about__card-li">{t("journey.item2")}</li>
 
             <li className="about__card-li">{t("journey.item3")}</li>
+
+            <li className="about__card-li">{t("journey.item4")}</li>
           </ul>
         </div>
 

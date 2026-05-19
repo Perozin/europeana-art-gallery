@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../../context/ThemeContext";
 import "../../blocks/navbar.css";
 
-import logo from "../../assets/images/logo-dark.png";
+import logo_l from "../../assets/images/logo-light.png";
+import logo_d from "../../assets/images/logo-dark.png";
 import menuLight from "../../assets/images/menu-light.png";
 import menuDark from "../../assets/images/menu-dark.png";
 import moonIcon from "../../assets/images/moon.png";
@@ -42,7 +43,11 @@ function Navbar() {
     <nav className="nav">
       {/* LOGO */}
       <div className="nav__logo">
-        <img src={logo} alt="logo" className="nav__image" />
+        <img
+          src={darkMode ? logo_d : logo_l}
+          alt="logo"
+          className="nav__image"
+        />
       </div>
 
       {/* HAMBURGER BUTTON */}

@@ -73,7 +73,7 @@ export function getFamilyData() {
       // automatically migrates to a new key.
       localStorage.setItem(KEY, JSON.stringify(migrated));
 
-      console.log("🔄 Dados migrados de:", oldKey);
+      console.log("🔄 Data migrated from:", oldKey);
 
       return migrated;
     }
@@ -86,7 +86,7 @@ export function getFamilyData() {
 
 export function saveFamilyData(data) {
   if (!data || Object.keys(data).length === 0) {
-    console.warn("⚠️ Tentativa de salvar dados vazios ignorada");
+    console.warn("⚠️ Attempt to save empty data ignored.");
     return;
   }
 

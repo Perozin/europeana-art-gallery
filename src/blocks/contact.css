@@ -6,7 +6,7 @@
 
 .contact {
   min-height: 450px;
-  background-image: url("../assets/images/bkg_header.svg");
+  background-image: url("../assets/images/bkg_light.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 body.dark .contact {
-  background-image: url("../assets/images/bkg_light.svg");
+  background-image: url("../assets/images/bkg_dark.svg");
 }
 
 /* =========================

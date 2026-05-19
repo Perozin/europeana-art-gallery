@@ -46,11 +46,11 @@ export function useFormValidation(initialValues, schema, t ) {
     const error = validateField(field, values[field], schema[field], t);
     if (error) newErrors[field] = error;
 
-    newTouched[field] = true; // 🔥 marca como touched
+    newTouched[field] = true; // mark as touched
   });
 
   setErrors(newErrors);
-  setTouched(newTouched); // 🔥 ESSENCIAL
+  setTouched(newTouched); 
 
   return Object.keys(newErrors).length === 0;
 }

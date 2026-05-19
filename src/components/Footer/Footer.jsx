@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import "../../blocks/footer.css";
 
-import logo_white from "../../assets/images/logo-light.png";
+import logo_d from "../../assets/images/logo-dark.png";
 import facebookIcon from "../../assets/images/facebook.svg";
 import instagramIcon from "../../assets/images/instagram.svg";
 import linkedinIcon from "../../assets/images/linkedin.svg";
@@ -20,11 +20,7 @@ function Footer() {
 
       <div className="footer__content">
         <div className="footer__logo">
-          <img
-            src={logo_white}
-            alt={t("logoAlt")}
-            className="footer__logo-image"
-          />
+          <img src={logo_d} alt={t("logoAlt")} className="footer__logo-image" />
         </div>
 
         <div className="footer__social">

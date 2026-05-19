@@ -12,7 +12,7 @@ import "../blocks/genealogy.css";
 
 import bisnoni from "../assets/images/bisnoni.png";
 import we from "../assets/images/my_family.png";
-import map from "../assets/images/a1.png";
+import map from "../assets/images/italy_small_map.png";
 import art from "../assets/images/b.png";
 import dna from "../assets/images/icon_dna.png";
 import figure from "../assets/images/icon_people.png";
