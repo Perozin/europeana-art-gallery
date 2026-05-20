@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  [![Art Gallery Explorer](./src/assets/readme/hero_screenshot_dark.png)](europeana-art-gallery-git-stage-react-api-perozins-projects.vercel.app)
+  [![Art Gallery Explorer](./src/assets/readme/hero_screenshot_dark.png)](https://europeana-art-gallery-git-stage-react-api-perozins-projects.vercel.app)
 </p>
 
 > 🎯 Interactive multilingual cultural exploration platform built with React, Vite, D3.js, and the Europeana API.
@@ -26,7 +26,7 @@
 
 ## 🚀 Live Application
 
-🌐 [Open Art Gallery Explorer](https://europeana-art-gallery.vercel.app/)
+🌐 [Open Art Gallery Explorer](https://europeana-art-gallery-git-stage-react-api-perozins-projects.vercel.app)
 
 ---
 
