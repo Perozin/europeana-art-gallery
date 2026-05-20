@@ -1,5 +1,7 @@
   // src/utils/storage.js
 
+  import defaultTree from "../data/defaultTree.json";
+
   const KEY = "genealogy-data";
   const OLD_KEYS = ["familyData", "genealogy", "treeData"];
 
@@ -45,41 +47,22 @@
   /* ================= GET DATA ================= */
 
   export function getFamilyData() {
-    // 1. new key tent
     let data = localStorage.getItem(KEY);
 
     if (data) {
       const parsed = JSON.parse(data);
-
-      // ================= AUTO MIGRATION =================
       const migrated = migrateRelations(parsed);
 
-      // saved already migrated
       localStorage.setItem(KEY, JSON.stringify(migrated));
-
       return migrated;
     }
 
-    // 2. try old keys
-    for (const oldKey of OLD_KEYS) {
-      const oldData = localStorage.getItem(oldKey);
+    // fallback
+    const migratedDefault = migrateRelations(defaultTree);
 
-      if (oldData) {
-        const parsed = JSON.parse(oldData);
+    localStorage.setItem(KEY, JSON.stringify(migratedDefault));
 
-        // ================= AUTO MIGRATION =================
-        const migrated = migrateRelations(parsed);
-
-        // automatically migrates to a new key.
-        localStorage.setItem(KEY, JSON.stringify(migrated));
-
-        console.log("🔄 Data migrated from:", oldKey);
-
-        return migrated;
-      }
-    }
-
-    return null;
+    return migratedDefault;
   }
 
   /* ================= SAVE DATA ================= */
@@ -92,4 +75,7 @@
 
     localStorage.setItem(KEY, JSON.stringify(data));
   }
+
+
+
 
