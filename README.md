@@ -13,7 +13,7 @@
   [![Art Gallery Explorer](readme-assets/genealogy_page_dark.png)](https://europeana-art-gallery-git-stage-react-api-perozins-projects.vercel.app)
 </p>
 
-> 🎯 Interactive multilingual cultural exploration platform built with React, Vite, D3.js, and the Europeana API.
+> 🎯 Interactivee multilingual cultural exploration platform built with React, Vite, D3.js, and the Europeana API.
 
 <p align="center">
   🇧🇷 <a href="#-português">Português</a> |
