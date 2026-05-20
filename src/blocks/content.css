@@ -1,0 +1,32 @@
+/* src/blocks/content.css */
+
+/* =========================
+   BASE
+========================= */
+
+.content {
+  width: 100%;
+  min-height: 790px;
+  background-image: url("../assets/images/bkg_main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  box-sizing: border-box;
+  flex: 1;
+  margin: 0;
+  padding: 20px 20px;
+}
+
+.content__back {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  font-weight: 500;
+  color: white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  margin: 0;
+}

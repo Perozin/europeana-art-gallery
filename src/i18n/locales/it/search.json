@@ -1,0 +1,7 @@
+{
+  "placeholder": "Cerca un artista o un'opera...",
+  "button": "Cerca",
+  "searching": "Ricerca in corso...",
+  "errorRequired": "Questo campo è obbligatorio",
+  "errorMinLength": "Inserisci almeno 2 caratteri"
+}

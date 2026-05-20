@@ -1,0 +1,33 @@
+/* src/blocks/preloader.css */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =========================
+   BASE
+========================= */
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.circle-preloader {
+  max-width: 80px;
+  max-height: 80px;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  border-top-color: #a020f0;
+  border-right-color: #ff3b7f;
+  border-bottom-color: #1ecad3;
+  border-left-color: #ffe600;
+
+  animation: spin 1s linear infinite;
+}

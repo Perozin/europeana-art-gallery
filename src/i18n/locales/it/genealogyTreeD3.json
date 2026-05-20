@@ -1,0 +1,56 @@
+{
+  "viewTree": "Visualizza Albero",
+  "back": "Indietro",
+
+  "edit": "Modifica",
+  "save": "Salva",
+  "saving": "Salvataggio...",
+  "cancel": "Annulla",
+
+  "delete": "Elimina",
+  "deleting": "Eliminazione...",
+  "confirmDelete": "Conferma Eliminazione",
+  "confirmMessage": "Sei sicuro di voler eliminare {{name}}?",
+  "yesDelete": "Sì, Elimina",
+
+  "addChild": "Figlio",
+  "addSpouse": "Coniuge",
+
+  "fullName": "Nome Completo",
+  "relation": "Seleziona parentela",
+  "place": "Luogo",
+  "born": "Nascita",
+  "death": "Morte",
+
+  "image": "URL immagine",
+  "chooseImage": "Scegli immagine",
+  "noFile": "Nessun file selezionato",
+  "showImage": "Mostra immagine nell'albero",
+
+  "child": "Figlio",
+  "father": "Padre",
+  "mother": "Madre",
+  "grandfather": "Nonno",
+  "grandmother": "Nonna",
+
+  "secondGrandfather": "Bisnonno",
+  "secondGrandmother": "Bisnonna",
+
+  "thirdGrandfather": "Trisnonno",
+  "thirdGrandmother": "Trisnonna",
+
+  "fourthGrandfather": "Quadrisnonno",
+  "fourthGrandmother": "Quadrisnonna",
+
+  "fifthGrandfather": "Quintisnonno",
+  "fifthGrandmother": "Quintisnonna",
+
+  "sixthGrandfather": "Sestisnonno",
+  "sixthGrandmother": "Sestisnonna",
+
+  "seventhGrandfather": "Settisnonno",
+  "seventhGrandmother": "Settisnonna",
+
+  "eighthGrandfather": "Ottavisnonno",
+  "eighthGrandmother": "Ottavisnonna"
+}

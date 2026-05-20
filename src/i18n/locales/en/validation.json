@@ -1,0 +1,9 @@
+{
+  "required": "This field is required",
+  "minLength": "Minimum 2 characters",
+  "nameRequired": "Name is required",
+  "invalidDate": "Invalid date",
+  "invalidImage": "Invalid image",
+  "futureDate": "Future dates are not allowed",
+  "deathBeforeBirth": "Death date cannot be earlier than birth date"
+}

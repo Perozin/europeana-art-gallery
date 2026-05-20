@@ -1,0 +1,76 @@
+/* src/blocks/searchForm.css */
+
+/* =========================
+   BASE
+========================= */
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+/* Form */
+.search__form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Content */
+.search__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input */
+.search__input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+body.dark .search__input {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+/* Button search */
+.search__button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.search__button.disabled {
+  max-height: 38px;
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+/* -------------  420  ------------- */
+@media (max-width: 432px) {
+  .search__form {
+    gap: 8px;
+  }
+}
+
+/* -------------  375  ------------- */
+@media (max-width: 375px) {
+  .search__form {
+    flex-direction: column;
+  }
+}
+
+/* -------------  320  ------------- */
+@media (max-width: 320px) {
+  .search__input {
+    padding: 10px;
+  }
+}

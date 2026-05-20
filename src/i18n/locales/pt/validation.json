@@ -1,0 +1,9 @@
+{
+  "required": "Este campo é obrigatório",
+  "minLength": "Mínimo 2 caracteres",
+  "nameRequired": "Nome é requirido",
+  "invalidDate": "Data invalida",
+  "invalidImage": "Imagem invalida",
+  "futureDate": "Datas futuras não são permitidas",
+  "deathBeforeBirth": "A data de falecimento não pode ser anterior à data de nascimento"
+}

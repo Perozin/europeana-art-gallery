@@ -1,0 +1,85 @@
+/* src/blocks/gallery.css */
+
+/* =========================
+   BASE
+========================= */
+
+.gallery {
+  width: 100%;
+  padding: 30px 0 40px;
+}
+
+/* ul */
+.gallery__list {
+  list-style: none;
+  column-count: 3;
+  column-gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Empty */
+.gallery__empty {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 60px;
+  /* color: #666; */
+  color: #fff;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+/* -------------  900  ------------- */
+@media (max-width: 900px) {
+  .gallery__list {
+    column-count: 2;
+  }
+}
+
+/* -------------  656  ------------- */
+@media (max-width: 656px) {
+  .gallery__list {
+    min-height: 1220px;
+  }
+}
+
+/* -------------  544  ------------- */
+@media (max-width: 544px) {
+  .gallery__list {
+    min-height: 1358px;
+  }
+}
+
+/* -------------  500  ------------- */
+@media (max-width: 500px) {
+  .gallery__list {
+    column-count: 1;
+  }
+
+  .gallery__list {
+    min-height: 1322px;
+  }
+}
+
+/* -------------  432  ------------- */
+@media (max-width: 432px) {
+  .gallery__list {
+    min-height: 1208px;
+  }
+}
+
+/* -------------  375  ------------- */
+@media (max-width: 375px) {
+  .gallery__list {
+    min-height: 1150px;
+  }
+}
+
+/* -------------  320  ------------- */
+@media (max-width: 320px) {
+  .gallery__list {
+    min-height: 1198px;
+  }
+}

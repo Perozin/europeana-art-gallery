@@ -1,0 +1,56 @@
+{
+  "viewTree": "Ver Árvore",
+  "back": "Voltar",
+
+  "edit": "Editar",
+  "save": "Salvar",
+  "saving": "Salvando...",
+  "cancel": "Cancelar",
+
+  "delete": "Excluir",
+  "deleting": "Excluindo...",
+  "confirmDelete": "Confirmar Exclusão",
+  "confirmMessage": "Tem certeza de que deseja excluir {{name}}?",
+  "yesDelete": "Sim, Excluir",
+
+  "addChild": "Filho",
+  "addSpouse": "Cônjuge",
+
+  "fullName": "Nome Completo",
+  "relation": "Selecionar parentesco",
+  "place": "Local",
+  "born": "Nascimento",
+  "death": "Falecimento",
+
+  "image": "URL da imagem",
+  "chooseImage": "Escolher imagem",
+  "noFile": "Nenhum arquivo selecionado",
+  "showImage": "Mostrar imagem na árvore",
+
+  "child": "Filho",
+  "father": "Pai",
+  "mother": "Mãe",
+  "grandfather": "Avô",
+  "grandmother": "Avó",
+
+  "secondGrandfather": "Bisavô",
+  "secondGrandmother": "Bisavó",
+
+  "thirdGrandfather": "Trisavô",
+  "thirdGrandmother": "Trisavó",
+
+  "fourthGrandfather": "Tetravô",
+  "fourthGrandmother": "Tetravó",
+
+  "fifthGrandfather": "Pentavô",
+  "fifthGrandmother": "Pentavó",
+
+  "sixthGrandfather": "Hexavô",
+  "sixthGrandmother": "Hexavó",
+
+  "seventhGrandfather": "Heptavô",
+  "seventhGrandmother": "Heptavó",
+
+  "eighthGrandfather": "Octavô",
+  "eighthGrandmother": "Octavó"
+}

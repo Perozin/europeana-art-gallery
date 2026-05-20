@@ -1,0 +1,30 @@
+{
+  "photoAlt": "Foto do autor",
+  "title": "Sobre o Autor",
+  "subtitle": "Desenvolvedor brasileiro com cidadania italiana em transição para a área de tecnologia.",
+  "author": {
+    "title": "O Autor",
+    "item1": "Explorar obras de museus europeus",
+    "item2": "Experiência moderna e imersiva"
+  },
+  "expertise": {
+    "title": "Especialidades",
+    "item1": "JavaScript, React",
+    "item2": "HTML & CSS",
+    "item3": "Git & GitHub",
+    "item4": "APIs REST"
+  },
+  "journey": {
+    "title": "Jornada",
+    "item1": "Graduação em Sistemas de Informação",
+    "item2": "Pós-graduação em Gestão de Projetos",
+    "item3": "Experiência em telecomunicações e dados",
+    "item4": "Transição de carreira para tecnologia"
+  },
+  "passions": {
+    "title": "Paixões",
+    "item1": "Tecnologia",
+    "item2": "Cultura europeia",
+    "item3": "Arte e história"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "photoAlt": "Author photo",
+  "title": "About the Author",
+  "subtitle": "Brazilian developer with Italian citizenship transitioning into tech.",
+  "author": {
+    "title": "The Author",
+    "item1": "Explore European museum artworks",
+    "item2": "Immersive and modern experience"
+  },
+  "expertise": {
+    "title": "Expertise",
+    "item1": "JavaScript, React",
+    "item2": "HTML & CSS",
+    "item3": "Git & GitHub",
+    "item4": "REST APIs"
+  },
+  "journey": {
+    "title": "Journey",
+    "item1": "Information Systems degree",
+    "item2": "Postgraduate degree in Project Management",
+    "item3": "Telecom & data background",
+    "item4": "Career transition to tech"
+  },
+  "passions": {
+    "title": "Passions",
+    "item1": "Technology",
+    "item2": "European culture",
+    "item3": "Art & history"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "viewTree": "View Tree",
+  "back": "Back",
+
+  "edit": "Edit",
+  "save": "Save",
+  "saving": "Saving...",
+  "cancel": "Cancel",
+
+  "delete": "Delete",
+  "deleting": "Deleting...",
+  "confirmDelete": "Confirm Delete",
+  "confirmMessage": "Are you sure you want to delete {{name}}?",
+  "yesDelete": "Yes, Delete",
+
+  "addChild": "Child",
+  "addSpouse": "Spouse",
+
+  "fullName": "Full Name",
+  "relation": "Select relation",
+  "place": "Place",
+  "born": "Born",
+  "death": "Death",
+
+  "image": "Image URL",
+  "chooseImage": "Choose image",
+  "noFile": "No file selected",
+  "showImage": "Show image in tree",
+
+  "child": "Child",
+  "father": "Father",
+  "mother": "Mother",
+  "grandfather": "Grandfather",
+  "grandmother": "Grandmother",
+
+  "secondGrandfather": "2nd Grandfather",
+  "secondGrandmother": "2nd Grandmother",
+
+  "thirdGrandfather": "3rd Grandfather",
+  "thirdGrandmother": "3rd Grandmother",
+
+  "fourthGrandfather": "4th Grandfather",
+  "fourthGrandmother": "4th Grandmother",
+
+  "fifthGrandfather": "5th Grandfather",
+  "fifthGrandmother": "5th Grandmother",
+
+  "sixthGrandfather": "6th Grandfather",
+  "sixthGrandmother": "6th Grandmother",
+
+  "seventhGrandfather": "7th Grandfather",
+  "seventhGrandmother": "7th Grandmother",
+
+  "eighthGrandfather": "8th Grandfather",
+  "eighthGrandmother": "8th Grandmother"
+}

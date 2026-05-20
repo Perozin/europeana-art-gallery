@@ -1,0 +1,30 @@
+{
+  "photoAlt": "Foto dell'autore",
+  "title": "Informazioni sull'autore",
+  "subtitle": "Sviluppatore brasiliano con cittadinanza italiana in transizione verso il settore tecnologico.",
+  "author": {
+    "title": "L'Autore",
+    "item1": "Esplorare opere d'arte dei musei europei",
+    "item2": "Esperienza moderna e immersiva"
+  },
+  "expertise": {
+    "title": "Competenze",
+    "item1": "JavaScript, React",
+    "item2": "HTML e CSS",
+    "item3": "Git e GitHub",
+    "item4": "API REST"
+  },
+  "journey": {
+    "title": "Percorso",
+    "item1": "Laurea in Sistemi Informativi",
+    "item2": "Specializzazione post-laurea in Project Management",
+    "item3": "Esperienza in telecomunicazioni e dati",
+    "item4": "Transizione di carriera verso la tecnologia"
+  },
+  "passions": {
+    "title": "Passioni",
+    "item1": "Tecnologia",
+    "item2": "Cultura europea",
+    "item3": "Arte e storia"
+  }
+}

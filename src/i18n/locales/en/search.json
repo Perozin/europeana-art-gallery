@@ -1,0 +1,7 @@
+{
+  "placeholder": "Search for an artist or artwork...",
+  "button": "Search",
+  "searching": "Searching...",
+  "errorRequired": "This field is required",
+  "errorMinLength": "Enter at least 2 characters"
+}

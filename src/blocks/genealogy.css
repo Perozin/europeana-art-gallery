@@ -1,0 +1,1100 @@
+/* src/blocks/genealogy.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+/* =========================
+   BASE
+========================= */
+
+.genealogy {
+  background-image: url("../assets/images/bkg_light.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 80px 40px;
+}
+
+body.dark .genealogy {
+  background-image: url("../assets/images/bkg_dark.svg");
+  background-position: left;
+}
+
+/* =========================
+   ANIMAÇÃO (SCROLL REVEAL)
+========================= */
+
+.genealogy__reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.genealogy__reveal_active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================
+   GRID LAYOUT
+========================= */
+
+.genealogy__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0;
+}
+
+.genealogy__col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.genealogy__card {
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.genealogy__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.genealogy__card_blue {
+  background: #256b79;
+  color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+body.dark .genealogy__card_blue {
+  background: #1a3a40;
+}
+
+.genealogy__card_sand {
+  background: #fbf6ea;
+  color: #256b79;
+  box-sizing: border-box;
+}
+
+body.dark .genealogy__card_sand {
+  background: #2a2a2a;
+  /* opacity: 0.9; */
+}
+
+.genealogy__card_dark {
+  background: #0f1f2e;
+  color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+body.dark .genealogy__card_dark {
+  background: #1a2b3c;
+}
+
+/* =========================
+   FAMILIY ROOTS 
+========================= */
+
+/* Photos */
+.genealogy__roots-photos {
+  max-width: 514.5px;
+  max-height: 187px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 35px 35px 15px;
+}
+
+.genealogy__roots-content {
+  margin: 0;
+  padding: 0;
+}
+
+.genealogy__roots-content_left {
+  max-width: 250px;
+  max-height: 187px;
+  z-index: 1;
+}
+
+.genealogy__roots-content_right {
+  max-width: 160px;
+  max-height: 187px;
+  z-index: 0;
+}
+
+.genealogy__roots-image {
+  width: 100%;
+  height: 100%;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.genealogy__roots-image_left {
+  transform: rotate(-10deg);
+}
+
+.genealogy__roots-image_right {
+  transform: rotate(10deg);
+}
+
+.genealogy__roots:hover .genealogy__roots-image_left {
+  transform: rotate(-10deg) translateY(-5px);
+}
+
+.genealogy__roots:hover .genealogy__roots-image_right {
+  transform: rotate(10deg) translateY(-5px);
+}
+
+/* Texts */
+.genealogy__roots-title {
+  letter-spacing: 7px;
+  font-size: 1.75em;
+  line-height: 2em;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.genealogy__roots-text {
+  letter-spacing: 20px;
+  font-size: 1.75em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* Icons */
+.genealogy__roots-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.genealogy__roots-span {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 6px;
+  padding: 0;
+}
+
+.genealogy__roots-icon {
+  max-width: 25px;
+  max-width: 25px;
+}
+
+.genealogy__roots-icon_dna {
+  width: 100%;
+  height: 100%;
+}
+
+.genealogy__roots-icon_people {
+  width: 100%;
+  height: 100%;
+}
+
+.genealogy__roots-icon_planet {
+  width: 100%;
+  height: 100%;
+}
+
+.genealogy__roots-icon_atom {
+  width: 100%;
+  height: 100%;
+}
+
+.genealogy__roots-arrow-container {
+  max-width: 34px;
+  max-height: 24px;
+  background: #256b79;
+  opacity: 0.95;
+  margin: 0 auto;
+}
+
+body.dark .genealogy__roots-arrow-container {
+  max-width: 34px;
+  max-height: 24px;
+  background: #1a3a40;
+  opacity: 0.5;
+}
+
+.genealogy__roots-arrow-image {
+  width: 100%;
+  height: 100%;
+  transform: translateY(42px);
+  border: none;
+}
+
+body.dark .genealogy__roots-arrow-image {
+  transform: translateY(43px);
+  border: none;
+  opacity: 0.4;
+}
+
+/* =========================
+   FAMILY INFO
+========================= */
+
+/* Icon */
+.genealogy__info-icons {
+  max-width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 25px 25px 5px;
+}
+
+.genealogy__info-icon {
+  max-width: 50px;
+  gap: 20px;
+}
+
+.genealogy__info-icon_people {
+  width: 100%;
+  height: 100%;
+}
+
+.genealogy__info-icon_ball {
+  width: 100%;
+  height: 100%;
+}
+
+/* Info */
+.genealogy__info-title {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  font-weight: 500;
+  color: #256b79;
+  text-align: center;
+  margin: 2px auto 0;
+  padding: 0;
+}
+
+body.dark .genealogy__info-title {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__info-paragraph {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  font-weight: 500;
+  color: #256b79;
+  text-align: center;
+  margin: -10px auto 0;
+  padding: 0;
+}
+
+body.dark .genealogy__info-paragraph {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__info-family {
+  min-height: 33px;
+  margin: 5px auto 0;
+}
+
+.genealogy__ancestry {
+  min-height: 17px;
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #256b79;
+  margin: 0 auto;
+}
+
+body.dark .genealogy__ancestry {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__ancestry_name {
+  font-weight: 500;
+  margin: 6.75px auto 0;
+}
+
+.genealogy__ancestry_relation {
+  margin: 6.75px auto 0;
+}
+
+/* Loader */
+.genealogy__loader {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: bounce 1.4s infinite ease-in-out;
+}
+
+.dot-on {
+  background-color: #ff7a00;
+  animation-delay: 0s;
+}
+
+.dot-tw {
+  background-color: #007bff;
+  animation-delay: 0.2s;
+}
+
+.dot-tr {
+  background-color: #00c853;
+  animation-delay: 0.4s;
+}
+
+/* =========================
+   FAMILY TREE
+========================= */
+
+/* Tree */
+.genealogy__tree {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  padding: 20px;
+}
+
+.genealogy__tree--expanded {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  width: 100%;
+  border-radius: 0;
+  background: #256b79;
+  margin-top: 50px;
+  padding: 0 45px 45px;
+  animation: fadeIn 0.3s ease;
+}
+
+.genealogy__tree > div {
+  flex: 1;
+}
+
+.genealogy__tree-text {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+/* =========================
+   PREVIEW MODE
+========================= */
+
+.genealogy__tree-preview {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.genealogy__tree-preview-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 15px 0;
+}
+
+.genealogy__tree-preview-button {
+  background: #e58652;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 16px;
+
+  transform: translateY(-2px);
+}
+
+.genealogy-tree__preview-button:hover {
+  background: #e26f40;
+}
+
+/* =========================
+   FAMILY ORIGIN 
+========================= */
+
+/* Content */
+.genealogy__origin-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Map */
+.genealogy__origin-map {
+  max-width: 250px;
+  max-height: 280px;
+}
+
+.genealogy__origin-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Texts */
+.genealogy__origin-title {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  font-weight: 500;
+  color: #256b79;
+  text-align: start;
+  margin: 0;
+  padding: 5px;
+}
+
+body.dark .genealogy__origin-title {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__origin-info {
+  max-width: 124.5px;
+  display: flex;
+  flex-direction: column;
+  color: #256b79;
+}
+
+.genealogy__origin-paragraph {
+  font-size: 1.25em;
+  line-height: 1.562em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+  transform: translate(-60px, 15px);
+}
+
+body.dark .genealogy__origin-paragraph {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__origin-span {
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+
+  transform: translate(-60px, 15px);
+}
+
+body.dark .genealogy__origin-span {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__origin-small {
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  white-space: wrap;
+  margin: 0;
+
+  transform: translate(125px, 58px);
+}
+
+body.dark .genealogy__origin-small {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+/* Church */
+.genealogy__origin-art {
+  max-width: 210px;
+  max-height: 210px;
+}
+
+.genealogy__origin-artwork {
+  width: 100%;
+  height: 100%;
+
+  transform: translate(20px, 88px);
+}
+
+/* =========================
+   FAMILY TIMELINE
+========================= */
+
+/* Content */
+.genealogy__timeline {
+  min-height: 275px;
+  background: #0f1f2e;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 20px 20px 11px;
+}
+
+/* Texts */
+.genealogy__timeline-title {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  font-weight: 500;
+  color: #f5f5f5;
+  text-align: start;
+  margin: 0;
+  padding: 0 0 40px;
+}
+
+.genealogy__timeline-years {
+  font-size: 0.75em;
+  line-height: 1em;
+  font-weight: 500;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Timeline */
+.genealogy__timeline-line {
+  position: relative;
+  height: 20px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #ff7a18, #6ec6ff, #00796b, #ff5722);
+}
+
+/* Nodes Container */
+.genealogy__timeline-nodes {
+  color: #f5f5f5;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: -30px 0 0;
+}
+
+/* Node Content */
+.genealogy__timeline-node {
+  min-width: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.genealogy__timeline-node::before {
+  color: #f5f5f5;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: 3px solid #0f3d4c;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+
+.genealogy__timeline-node_span {
+  max-width: 70px;
+  font-size: 0.625em;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0.9;
+  flex-wrap: wrap;
+  margin: 15px 0 3px;
+}
+
+/* =========================
+   FAMILY HISTORY
+========================= */
+
+/* Content */
+.genealogy__history {
+  max-height: 371px;
+}
+
+.genealogy__history-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Texts */
+.genealogy__history-title {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  font-weight: 500;
+  color: #256b79;
+  text-align: start;
+  margin: 0 auto;
+}
+body.dark .genealogy__history-title {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+.genealogy__history-paragraph {
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 500;
+  color: #256b79;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+body.dark .genealogy__history-paragraph {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+/* Background Image  */
+.genealogy__history-background {
+  max-width: 560px;
+  max-height: 221px;
+  margin-left: 0;
+}
+
+.genealogy__history-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Link */
+.genealogy__history-link {
+  font-size: 1em;
+  line-height: 1.25em;
+  color: #256b79;
+}
+
+body.dark .genealogy__history-link {
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.genealogy__footer {
+  margin-top: 10px;
+}
+
+.genealogy__quote {
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #0f1f2e;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+body.dark .genealogy__quote {
+  color: #f5f5f5;
+  opacity: 1.5;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+/* -------------  1024  ------------- */
+@media (max-width: 1024px) {
+  /* BASE */
+  .genealogy {
+    padding: 30px 80px 40px;
+  }
+
+  /* CARDS */
+  .genealogy__card_sand_origen {
+    min-height: 312px;
+  }
+
+  /* FAMILY ROOTS */
+  .genealogy__roots-title {
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    line-height: 1.75em;
+  }
+
+  .genealogy__roots-text {
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    line-height: 0;
+  }
+
+  /* FAMILY INFO */
+  .genealogy__info-family {
+    min-height: 30px;
+  }
+
+  .genealogy__ancestry {
+    min-height: 14.5px;
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__origin-info {
+    max-width: 60px;
+  }
+
+  .genealogy__origin-paragraph {
+    font-size: 1.125em;
+    line-height: 1.372em;
+
+    transform: translate(-30px, 5px);
+  }
+
+  .genealogy__origin-span {
+    transform: translate(-30px, 5px);
+  }
+
+  .genealogy__origin-small {
+    transform: translate(40px, 58px);
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 97px);
+  }
+
+  /* FAMILY TIMELINE */
+  .genealogy__timeline {
+    min-height: 232px;
+  }
+
+  .genealogy__timeline-title {
+    padding: 0 0 20px;
+  }
+
+  .genealogy__timeline-years {
+    font-size: 0.625em;
+    line-height: 0.875em;
+  }
+
+  .genealogy__timeline-node_span {
+    font-size: 0.5em;
+  }
+
+  /* titles */
+  .genealogy__info-title,
+  .genealogy__info-paragraph,
+  .genealogy__tree-text,
+  .genealogy__origin-title,
+  .genealogy__timeline-title,
+  .genealogy__history-title {
+    letter-spacing: 3px;
+    font-size: 1.375em;
+    line-height: 1.75em;
+  }
+
+  /* sub-titles */
+  .genealogy__ancestry,
+  .genealogy__origin-span,
+  .genealogy__origin-small,
+  .genealogy__history-paragraph,
+  .genealogy__history-link {
+    font-size: 0.875em;
+    line-height: 1.125em;
+  }
+}
+
+/* -------------  900  ------------- */
+@media (max-width: 900px) {
+  /* FAMILY INFO */
+  .genealogy__info-family {
+    min-height: 28px;
+  }
+
+  .genealogy__ancestry {
+    min-height: 14px;
+  }
+
+  /* FAMILY TREE */
+  .genealogy__tree--expanded {
+    padding: 0 35px 35px;
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__card_sand_origen {
+    min-height: 280px;
+  }
+
+  .genealogy__origin-info {
+    max-width: 30px;
+  }
+
+  .genealogy__origin-small {
+    transform: translate(15px, 38px);
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 82px);
+  }
+
+  /* FAMILY HISTORY */
+  .genealogy__history {
+    max-height: 390px;
+  }
+}
+
+/* -------------  768  ------------- */
+@media (max-width: 768px) {
+  /* BASE */
+  .genealogy__grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* FAMILY TREE */
+  .genealogy__tree--expanded {
+    padding: 0 30px 30px;
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__origin-info {
+    max-width: 124.5px;
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 87px);
+  }
+}
+
+/* -------------  656  ------------- */
+@media (max-width: 656px) {
+  /* BASE */
+  .genealogy {
+    padding: 40px;
+  }
+
+  .genealogy__grid {
+    padding: 80px 0 50px;
+  }
+
+  /* FAMILY TREE */
+  .genealogy__tree-preview-button {
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 8px;
+
+    transform: translateY(-2px);
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__origin-artwork {
+    transform: translate(20px, 80px);
+  }
+}
+
+/* -------------  544  ------------- */
+@media (max-width: 544px) {
+  /* FAMILY ORIGIN */
+  .genealogy__origin-info {
+    max-width: 60px;
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 74px);
+  }
+}
+
+/* -------------  500  ------------- */
+@media (max-width: 500px) {
+  /* FAMILY ORIGIN */
+  .genealogy__origin-info {
+    max-width: 30px;
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 73px);
+  }
+}
+
+/* -------------  432  ------------- */
+/* BASE */
+@media (max-width: 432px) {
+  .genealogy {
+    padding: 40px 10px;
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__origin-info {
+    max-width: 0;
+  }
+
+  .genealogy__origin-paragraph {
+    transform: translate(-55px, 5px);
+  }
+
+  .genealogy__origin-span {
+    transform: translate(-55px, 5px);
+  }
+
+  .genealogy__origin-small {
+    transform: translate(-5px, 25px);
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 76px);
+  }
+}
+
+/* -------------  375  ------------- */
+@media (max-width: 375px) {
+  /* BASE */
+  .genealogy {
+    padding: 40px 0;
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__origin-paragraph {
+    transform: translate(-45px, 5px);
+  }
+
+  .genealogy__origin-span {
+    transform: translate(-45px, 5px);
+  }
+
+  .genealogy__origin-small {
+    transform: translate(10px, 15px);
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 70px);
+  }
+}
+
+/* -------------  320  ------------- */
+@media (max-width: 320px) {
+  /* CARDS */
+  .genealogy__card_blue,
+  .genealogy__card_sand,
+  .genealogy__timeline {
+    max-width: 289px;
+  }
+
+  /* FAMILY ROOTS */
+  .genealogy__roots-photos {
+    padding: 15px;
+  }
+
+  .genealogy__roots-title {
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    line-height: 1.75em;
+  }
+
+  .genealogy__roots-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .genealogy__roots-title,
+  .genealogy__roots-text {
+    letter-spacing: 0;
+    font-size: 1.375em;
+    line-height: 1.625em;
+    padding: 0 5px;
+  }
+
+  /* FAMILY TREE */
+  .genealogy__tree--expanded {
+    padding: 0 10px 30px;
+  }
+
+  /* FAMILY ORIGIN */
+  .genealogy__origin-paragraph {
+    font-size: 1em;
+    line-height: 1.247em;
+
+    transform: translate(-45px, 5px);
+  }
+
+  .genealogy__origin-span {
+    font-size: 0.75em;
+    line-height: 1em;
+
+    transform: translate(-45px, 5px);
+  }
+
+  .genealogy__origin-small {
+    font-size: 0.75em;
+    line-height: 1em;
+
+    transform: translate(10px, 35px);
+  }
+
+  .genealogy__origin-artwork {
+    transform: translate(20px, 113px);
+  }
+
+  /* FAMILY TIMELINE */
+  .genealogy__timeline-years {
+    font-size: 0.6875em;
+    line-height: 0.9375em;
+  }
+
+  .genealogy__timeline-node_span {
+    font-size: 0.625em;
+  }
+
+  /* titles */
+  .genealogy__info-title,
+  .genealogy__info-paragraph,
+  .genealogy__tree-card-text,
+  .genealogy__origin-title,
+  .genealogy__timeline-title,
+  .genealogy__history-title {
+    letter-spacing: 0px;
+    font-size: 1.25em;
+    line-height: 1.625em;
+    padding: 0;
+  }
+}

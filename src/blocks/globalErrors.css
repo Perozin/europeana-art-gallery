@@ -1,0 +1,11 @@
+/* src/blocks/globalErrors.css */
+
+.input-error {
+  border: 2px solid #db0832 !important;
+}
+
+.input-error-message {
+  color: #db0832;
+  font-size: 12px;
+  text-align: left;
+}

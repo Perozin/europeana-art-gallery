@@ -1,0 +1,36 @@
+{
+  "rootsTitle": "MEINE EUROPÄISCHEN",
+  "roots": "WURZELN",
+  "familyName": "PERUSIN & SQUIZZATO",
+  "familyHistory": "FAMILIENGESCHICHTE",
+  "familyTree": "STAMMBAUM",
+  "viewTree": "Baumansicht",
+  "origin": "HERKUNFT",
+  "country": "ITALIEN",
+  "region": "(LOREGGIA, VENETIEN)",
+  "perugia": "MÖGLICHE VERBINDUNG ZU PERUGIA",
+  "timeline": "ZEITLEISTE",
+  "veniceRepublic": "REPUBLIK VENEDIG",
+  "italy": "ITALIEN",
+  "brazil": "BRASILIEN",
+  "saoPaulo": "INNENLAND VON SÃO PAULO",
+  "storytelling": "GESCHICHTE",
+  "storyDescription": "Entdecken Sie die vollständige Geschichte meiner Familie",
+  "viewStory": "GESCHICHTE ANSEHEN",
+  "quote": "\"Dieses Projekt verbindet europäische Kunst mit meinen eigenen europäischen Wurzeln.\"",
+  "noData": "Keine Daten",
+
+  "alt": {
+    "familyPhoto": "Meine Eltern, meine Geschwister und ich.",
+    "greatGrandparents": "Meine Urgroßeltern Giuseppe Perusin und Lucia Squizzato.",
+    "dna": "DNA-Symbol",
+    "people": "Personensymbol",
+    "atom": "Atomsymbol",
+    "planet": "Planetensymbol",
+    "arrow": "Pfeil",
+    "ball": "Kugelsymbol",
+    "italyMap": "Karte von Italien",
+    "church": "Italienische Kirche.",
+    "book": "Offenes Buch."
+  }
+}

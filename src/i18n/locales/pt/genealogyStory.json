@@ -1,0 +1,836 @@
+{
+  "back": "Voltar",
+
+  "hero": {
+    "title": "Da Itália ao Brasil",
+    "paragraphs": [
+      "Uma jornada de raízes, identidade e gerações que atravessaram o oceano."
+    ]
+  },
+
+  "sections": [
+    {
+      "id": "origins-italy",
+      "layout": "reverse",
+      "title": "Origens na Itália",
+      "paragraphs": [
+        "Com raízes na região do Vêneto, no norte da Itália (Castelfranco, Resana, Loreggia), a família Perusin pode ter origens ainda mais antigas na Úmbria (Perugia).",
+        "O genealogista Johann Hammer também observa que a família se estabeleceu nas regiões austro-húngaras de 'Küstenland' e 'Ístria'.",
+        "Pelo lado materno, a família Scoizzato (ou Squizzato) pode ter origens ligadas à Suíça, segundo a tradição oral preservada por parentes na Itália e apoiada por pesquisas genealógicas.",
+        "Esses deslocamentos provavelmente ocorreram antes do século XVI, refletindo antigos padrões migratórios na Europa."
+      ],
+      "image": {
+        "src": "italy_map",
+        "alt": "Mapa da Itália",
+        "caption": "Mapa da Itália gerado por IA."
+      }
+    },
+
+    {
+      "id": "perugia-origin",
+      "layout": "normal",
+      "title": "Perugia: a origem remota dos Perusin?",
+      "paragraphs": [
+        "Em 1649, o jesuíta Philip Briet criou o mapa 'L'Umbrie le Perusin le Duche D'Urbin la Marche D'Ancone', parte de sua obra 'Parallela Geographiae Veteris et Novae'.",
+        "O mapa abrange as regiões italianas da Úmbria e de Ancona, destacando a jurisdição de 'Le Perusin' (região de Perugia).",
+        "Esse registro é uma valiosa evidência da origem do sobrenome Perusin: ele surgiu como uma identificação para aqueles nascidos ou residentes naquela área, significando literalmente 'habitante de Perugia'."
+      ],
+      "image": {
+        "src": "perugia",
+        "alt": "Atlas de Philip Briet de 1649",
+        "caption": "'L'Umbrie le Perusin le Duche D'Urbin la Marche D'Ancone'; Parallela Geographiae Veteris et Novae; Philip Briet; 1649."
+      }
+    },
+
+    {
+      "id": "giovanni-battista-scoizzato",
+      "layout": "reverse",
+      "title": "Hexavô, Giovanni Battista Scoizzato (Treville, Treviso, 1768)",
+      "paragraphs": [
+        "Certidão de óbito de Giovanni Battista Scoizzato, meu hexavô, em Treville - Treviso, em 30 de março de 1768."
+      ],
+      "image": {
+        "src": "death_gbs",
+        "alt": "Meu hexavô Giovanni Battista Scoizzato",
+        "caption": "Arquivo Estatal de Treviso - Registro Civil Napoleônico; Treville; Casamentos, anexos; 1806-1813, pág. 66 de 607. https://antenati.cultura.gov.it/ark:/12657/an_ua357569/wQrxyRz"
+      }
+    },
+
+    {
+      "id": "gasparo-scoizzato",
+      "layout": "normal",
+      "title": "Pentavô, Gasparo Scoizzato (Treville, Treviso, 1805)",
+      "paragraphs": [
+        "Certidão de óbito de Gasparo Scoizzato, meu pentavô, em 17 de agosto de 1805."
+      ],
+      "image": {
+        "src": "death_gas",
+        "alt": "Meu pentavô Gasparo Scoizzato",
+        "caption": "Arquivo Estatal de Treviso - Registro Civil Napoleônico: Treville; Casamentos, anexos; 1806-1813; pág. 68 de 607. https://antenati.cultura.gov.it/ark:/12657/an_ua357569/w9KVgOa"
+      }
+    },
+
+    {
+      "id": "antonio-scoizzato-antonia-daminato",
+      "layout": "reverse",
+      "title": "Tetravós, Antonio Scoizzato e Antonia Damianato (Treville, Treviso, 1807)",
+      "paragraphs": [
+        "Registro de casamento de meus tetravós, Antonio Scoizzato e Antonia Daminato, em 4 de fevereiro de 1807.",
+        "Este registro apresenta os nomes dos pais de Antonio (Gaspardo Scoizzato e Pasqua Marcon), meus pentavós."
+      ],
+      "image": {
+        "src": "antonio_s",
+        "alt": "Meus tetravós, Antonio Scoizzato e Antonia Daminato",
+        "caption": "Arquivo Estatal de Treviso - Registro Civil Napoleônico; Treville; 1807; Casamentos; página 5 de 23. https://antenati.cultura.gov.it/ark:/12657/an_ua357564/wRvgpkQ"
+      }
+    },
+
+    {
+      "id": "antonio-perusin-giovanna-marconato",
+      "layout": "normal",
+      "title": "Pentavós, Antonio Perusin e Giovanna Marconato (Resana, Treviso, 1808)",
+      "paragraphs": [
+        "Registro de casamento de Giovanni Perusin e Rosa Perinazzo em 22 de fevereiro de 1808, em Resana (Treviso).",
+        "Nele aparecem meus pentavós, Antonio Perusin (61 anos) e Giovanna Marconato (50 anos), pais do noivo."
+      ],
+      "image": {
+        "src": "wedding_gr",
+        "alt": "Meus pentavós Perusin e Marconato",
+        "caption": "Arquivo Estatal de Treviso; Registro Civil Napoleônico; Resana; Casamentos; 1808, registro nº 5, imagens online 6-8/26. https://antenati.cultura.gov.it/ark:/12657/an_ua20062821/5GrmGmE"
+      }
+    },
+
+    {
+      "id": "valentino-perusin-angela-rossi",
+      "layout": "reverse",
+      "title": "Tetravós, Valentino Perusin e Angela Rossi (Resana, Treviso, 1808)",
+      "paragraphs": [
+        "Neste registro de óbito de Tomaso e Catterina, datado de 8 de março de 1808, aparecem figuras centrais de nossa linhagem:",
+        "Valentino Bortolleto e Angela Rossi, meus tetravós, então com 45 e 38 anos, bem como meu pentavô Antonio Bortolleto, que tinha 71 anos.",
+        "No documento, eles são identificados como os pais e o avô das crianças.",
+        "Vale destacar que meus ancestrais Perusin eram chamados de Bortolleto quando vivíamos em Resana-Treviso, numa tentativa de nos diferenciar de outros ramos da família Perusin, uma prática comum da época.",
+        "O sufixo '-eto' indica um diminutivo, sugerindo que éramos descendentes de um Bortollo ou Bortolomeu, sendo conhecidos como os 'pequenos Bortolomeus'."
+      ],
+      "image": {
+        "src": "death_tc",
+        "alt": "Tetravós Perusin e Rossi",
+        "caption": "Arquivo Estatal de Treviso; Registro Civil Napoleônico; Resana; Óbitos; 1809, registro nº 6, imagem online 5/19. https://antenati.cultura.gov.it/ark:/12657/an_ua20062826/5GrmGJQ"
+      }
+    },
+
+    {
+      "id": "pietro-perusin-birth",
+      "layout": "normal",
+      "title": "Trisavô, Pietro Perusin (Resana, Treviso, 1810)",
+      "paragraphs": [
+        "Certidão de nascimento do meu trisavô, Pietro Perusin, datada de 19 de fevereiro de 1810, em Resana, Treviso.",
+        "O documento registra os nomes e as idades de meus tetravós, Valentino e Angela Rossi."
+      ],
+      "image": {
+        "src": "birth_pt",
+        "alt": "Meu trisavô Pietro Perusin",
+        "caption": "Arquivo Estatal de Treviso; Stato civile napoleonico; Resana; Nascimentos; 1810, registro nº 9, imagem online 5/26. https://antenati.cultura.gov.it/ark:/12657/an_ua20062851/Lejx1RV"
+      }
+    },
+
+    {
+      "id": "giuseppe-perusin-baptism",
+      "layout": "reverse",
+      "title": "Bisavô, Giuseppe Perusin (Loreggia, Pádua, 1855)",
+      "paragraphs": [
+        "Cópia da certidão de batismo de meu bisavô Giuseppe Perusin na paróquia 'Purificazione Della B.V. Maria', em Loreggia, Pádua, no ano de 1855."
+      ],
+      "image": {
+        "src": "baptism_g",
+        "alt": "Certidão de batismo de Giuseppe Perusin",
+        "caption": "Uma cópia da certidão de batismo do meu bisavô Giuseppe, gentilmente fornecida pela prima de meu pai, Odélia Perozin."
+      }
+    },
+
+    {
+      "id": "antonio-perusin-death",
+      "layout": "normal",
+      "title": "Antonio Perusin, irmão do meu trisavô, Pietro Perusin (Loreggia, Pádua, 1874)",
+      "paragraphs": [
+        "Certidão de óbito de Antonio Perusin, irmão do meu trisavô Pietro Perusin, datada de 1º de agosto de 1874, em Loreggia, Pádua.",
+        "O documento indica que Antonio residia na Contrada Sparella, nº 159, em Loreggia, e confirma que ele era filho de Valentino Perusin e Angela Rossi.",
+        "Nota histórica: Em Resana (TV), o ramo da família era identificado pelo nome 'Bortolleto'.",
+        "Após a mudança para Loreggia (PD), o uso desse nome foi abandonado, prevalecendo apenas o sobrenome Perusin nos registros civis e religiosos."
+      ],
+      "image": {
+        "src": "death_a",
+        "alt": "Certidão de óbito de Antonio Perusin",
+        "caption": "Italia, Padova, Stato Civile (Tribunale), 1871-1929, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X3W2-4TMN : Thu Apr 03 10:58:37 UTC 2025), Registro de Antonio Perusin e Valentino, 1 Ago 1874."
+      }
+    },
+
+    {
+      "id": "italia-angela-perusin-birth",
+      "layout": "reverse",
+      "title": "Tia-avó, Italia Angela Perusin (Loreggia, Pádua, 1881)",
+      "paragraphs": [
+        "Certidão de nascimento de Italia Perusin na Contrada Via Sparella 390, Loreggia-Pádua, em 30 de dezembro de 1881. Giuseppe Perusin, meu bisavô, registrou sua filha apenas em 2 de janeiro de 1882.",
+        "Fato interessante: segundo o registro, Giuseppe Perusin e Lucia Squizzato não eram casados quando Italia nasceu. Eles só se casaram em 13 de julho de 1884, em Loreggia."
+      ],
+      "image": {
+        "src": "birth_i",
+        "alt": "Nascimento de Italia Perusin",
+        "caption": "Livro de Certidões de Nascimento de Loreggia, ano 1881-1882. FamilySearch (https://www.familysearch.org/pt/memories/memory/184523787)"
+      }
+    },
+
+    {
+      "id": "giuseppe-perusin-lucia-squizzato-wedding",
+      "layout": "normal",
+      "title": "Casamento dos bisavós, Giuseppe Perusin e Lucia Squizzato (Loreggia, Pádua, 1884)",
+      "paragraphs": [
+        "Em 13 de julho de 1884, em Loreggia (Pádua), meus bisavós Giuseppe Perusin e Lucia Squizzato se casaram.",
+        "Este importante registro também revela a geração anterior, meus trisavós:",
+        "Pietro Perusin e Maria Maddalena Bianchi (pais de Giuseppe) e Giovanni Squizzato e Angela Dal Bruoi (pais de Lucia).",
+        "Via Sparella 390 era a residência de Giuseppe Perusin e Lucia Squizzato, meus bisavós, onde todos os seus filhos nasceram.",
+        "Um fato curioso: ao analisar os registros dos tios e irmãos de Giuseppe, podemos perceber que os descendentes de Valentino Perusin, meu tetravô, mudaram-se de Resana-Treviso para Loreggia-Pádua por volta de 1840 e passaram a residir no mesmo local, a antiga Contrada Via Sparella, alterando apenas os números das casas."
+      ],
+      "image": {
+        "src": "wedding_gp",
+        "alt": "Giuseppe Perusin e Lucia Squizzato",
+        "caption": "Italia, Padova, Padova, Stato Civile (Tribunale), 1871-1929, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X3W2-75LP : Wed Feb 11 00:51:53 UTC 2026), Registro de Giuseppe Percesin e Pietro, 13 Jul 1884."
+      }
+    },
+
+    {
+      "id": "francesco-perusin-birth",
+      "layout": "reverse",
+      "title": "Tio-avô, Francesco Perusin (Loreggia, Pádua, 1887)",
+      "paragraphs": [
+        "Cópia da certidão de nascimento de Francesco Perusin em Loreggia, Pádua, no ano de 1887. Neste registro podemos ver o local exato de nascimento de Francesco Perusin, irmão de meu avô, como Via Sparella número 390."
+      ],
+      "image": {
+        "src": "birth_f",
+        "alt": "Certidão de nascimento de Francesco Perusin",
+        "caption": "Italia, Padova, Stato Civile (Tribunale), 1871-1929, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X3WJ-D881 : Thu Jun 19 08:33:55 UTC 2025), Registro de Francesco Perisin e Giuseppe Perisin, 30 Set 1887."
+      }
+    },
+
+    {
+      "id": "pietro-perusin-birth-1889",
+      "layout": "normal",
+      "title": "Tio-avô, Pietro Perusin (Loreggia, Pádua, 1889)",
+      "paragraphs": [
+        "Pietro Perusin nasceu em 11 de outubro de 1889, na Via Sparella, número 390, em Loreggia (Pádua). Ele era irmão de Romeo Perusin, meu avô, e este registro preserva as origens italianas de nossa família."
+      ],
+      "image": {
+        "src": "birth_p",
+        "alt": "Certidão de nascimento de Pietro Perusin",
+        "caption": "Italia, Padova, Padova, Stato Civile (Tribunale), 1871-1929, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X3WJ-6512 : Thu Jun 19 08:26:01 UTC 2025), Registro de Pietro Penesini e Giuseppe Penesini, 11 Dez 1889."
+      }
+    },
+
+    {
+      "id": "romeo-perusin-birth",
+      "layout": "reverse",
+      "title": "Avô Romeo Perusin (Loreggia, Pádua, 1892)",
+      "paragraphs": [
+        "Certidão de nascimento do meu avô, Romeo Perusin, datada de 15 de março de 1892. O nascimento foi registrado na Via Sparella, nº 390, em Loreggia, província de Pádua, Itália."
+      ],
+      "image": {
+        "src": "birth_r",
+        "alt": "Nascimento do meu avô Romeo Perusin",
+        "caption": "Italia, Padova, Padova, Stato Civile (Tribunale), 1871-1929, base de dados com imagens, FamilySearch (https://familysearch.org/ark:/61903/3:1:939K-RZ7H-2R?cc=1946877&wc=MDFS-PMW%3A244884001%2C245712201 : 2 April 2025), Loreggia Nati 1892 imagem 11 de 43; Tribunale di Padova (Tribunal de Pádua, Pádua)."
+      }
+    },
+    {
+      "id": "flaminio-perusin-birth",
+      "layout": "normal",
+      "title": "Tio-avô Flaminio Perusin (Loreggia, Pádua, 1896)",
+      "paragraphs": [
+        "Certidão de nascimento de meu tio-avô Flaminio Perusin, datada de 11 de abril de 1896. O nascimento foi registrado na Via Sparella, nº 390, em Loreggia, província de Pádua, Itália."
+      ],
+      "image": {
+        "src": "birth_e",
+        "alt": "Nascimento de Flaminio Perusin",
+        "caption": "Italia, Padova, Padova, Stato Civile (Tribunale), 1871-1929, base de dados com imagens, FamilySearch (https://familysearch.org/ark:/61903/3:1:939K-RZ7C-LR?cc=1946877&wc=MDF3-STL%3A244884001%2C245730601 : 2 April 2025), Loreggia Nati 1896 imagem 22 de 55; Tribunale di Padova (Tribunal de Pádua, Pádua)."
+      }
+    },
+    {
+      "id": "migration-brazil",
+      "layout": "reverse",
+      "title": "Migração para o Brasil",
+      "paragraphs": [
+        "No final do século XIX, membros das famílias Perusin e Scoizzato migraram para o Brasil, como parte de uma ampla onda de imigração europeia.",
+        "Esse movimento foi impulsionado por dificuldades econômicas, oportunidades de terras e mudanças políticas na Europa.",
+        "Como muitos imigrantes italianos, eles se estabeleceram no estado de São Paulo, contribuindo para o desenvolvimento de comunidades rurais e urbanas. Seu legado passou a fazer parte do tecido cultural e social do Brasil."
+      ],
+      "image": {
+        "src": "migration",
+        "alt": "Migração para o Brasil",
+        "caption": "Sobre esta foto: https://diariodorio.com/wp-content/uploads/2021/08/nave-emigrazione-2.jpg"
+      }
+    },
+    {
+      "id": "disembarkation-santos",
+      "layout": "normal",
+      "title": "Desembarque no Porto de Santos (Santos, São Paulo, Brasil, 1897)",
+      "paragraphs": [
+        "Meus bisavós, Giuseppe Perusin e Lucia Squizzato, juntamente com seus cinco filhos, entre eles meu avô Romeo, deixaram a Itália pelo porto de Gênova em 1º de fevereiro de 1897 e desembarcaram no Brasil em 15 de fevereiro de 1897, no porto da cidade de Santos, no estado de São Paulo.",
+        "Segundo os registros, chegaram da Itália no vapor Regina Margherita e seguiram para a cidade de Jahú, no estado de São Paulo, para trabalhar na fazenda de A. Carvalho de Barros. Mais tarde, mudaram-se para a cidade de Agudos."
+      ],
+      "image": {
+        "src": "landing",
+        "alt": "Desembarque no Porto de Santos",
+        "caption": "Documento oficial do Estado de São Paulo."
+      }
+    },
+    {
+      "id": "steamship-regina-margherita",
+      "layout": "reverse",
+      "title": "Vapor Regina Margherita: curiosidades",
+      "paragraphs": [
+        "Construído em 1884 pelo estaleiro A. McMillan & Son, em Dumbarton, o vapor Regina Margherita foi um marco da navegação italiana.",
+        "Encomendado pela Società Italiana Trasporti Marittimi Raggio & C., de Gênova, o navio destacou-se pelo luxo e pela inovação: foi o primeiro transatlântico italiano equipado com iluminação elétrica.",
+        "Com capacidade para 1.450 passageiros e uma tripulação de 150 pessoas, oferecia acomodações de alto padrão para a época. Até mesmo a terceira classe se destacava pela excelente ventilação e iluminação.",
+        "Após ser lançado em 1885, o Regina Margherita inaugurou, em dezembro daquele ano, viagens regulares entre a Europa e a América do Sul, consolidando-se como pioneiro das rotas transatlânticas italianas.",
+        "Fonte: AGENZIA BOZZO. Piroscafo Regina Margherita (1884). Genova, [s.d.]. Disponível em: http://www.agenziabozzo.it. Acesso em: 11 maio 2026."
+      ],
+      "image": {
+        "src": "nave",
+        "alt": "Vapor Regina Margherita",
+        "caption": "Navigazione Generale Italiana; circa 1890; https://www.naviearmatori.net/ita/foto-156558-4.html"
+      }
+    },
+    {
+      "id": "family-passport-1897",
+      "layout": "normal",
+      "title": "Passaporte da família (1897)",
+      "paragraphs": [
+        "Uma cópia do passaporte italiano original da família, da época em que chegaram ao Brasil em 1897."
+      ],
+      "image": {
+        "src": "passport",
+        "alt": "Passaporte da família quando chegaram ao Brasil",
+        "caption": "Uma cópia do passaporte italiano original da família, gentilmente entregue a meu pai por sua prima Odélia Perozin."
+      }
+    },
+    {
+      "id": "sao-paulo-route-map",
+      "layout": "reverse",
+      "title": "Mapa de São Paulo, Brasil",
+      "paragraphs": [
+        "Mapa da rota seguida por meus ancestrais quando chegaram ao Brasil em 1897. Eles partiram do porto de Santos e seguiram para Jhaú, no interior de São Paulo. Em 1902 mudaram-se para a cidade de Agudos.",
+        "Em 1897, a viagem de trem de Santos até Jhaú (atual Jaú) percorria uma distância total aproximada de 350 quilômetros.",
+        "A rota não era direta, exigindo transferências entre diferentes companhias ferroviárias, resultando em um tempo total de viagem que podia variar entre 12 e 15 horas, dependendo das conexões e paradas."
+      ],
+      "image": {
+        "src": "sp_map",
+        "alt": "Mapa de São Paulo",
+        "caption": "Mapa ilustrativo da rota seguida por meus ancestrais italianos quando desembarcaram no Brasil pelo porto de Santos-SP e seguiram para o interior do estado de São Paulo, rumo às cidades de Jhaú e Agudos."
+      }
+    },
+
+    {
+      "id": "italia-perusin-wedding",
+      "layout": "normal",
+      "title": "Casamento de Italia Perusin e Nicola Rossi (Agudos, São Paulo, Brasil, 1901)",
+      "paragraphs": [
+        "Em 17 de novembro de 1901, a cidade de Agudos, SP, foi cenário do casamento de Italia Perusin e Nicola Rossi. Italia, irmã mais velha do meu avô Romeo, tinha 19 anos, e Nicola tinha 26.",
+        "O casal de imigrantes italianos uniu as linhagens de Giuseppe Perusin e Lucia Squizzato à de Giuseppe Rossi e Carmela Principe."
+      ],
+      "image": {
+        "src": "wedding_i",
+        "alt": "Casamento de Italia Perusin",
+        "caption": "Brasil, São Paulo, Registros da Igreja Católica, 1640-2013, base de dados com imagens, FamilySearch (https://familysearch.org/ark:/61903/3:1:939N-3MS9-FY?cc=2177299&wc=M5JP-JWY%3A372400601%2C372400602%2C372477101 : 22 May 2014), Agudos São Paulo Casamentos 1898, Out-1909, Mai, imagem 17 de 55; paróquias da Igreja Católica, São Paulo."
+      }
+    },
+
+    {
+      "id": "great-grandparents-photo",
+      "layout": "reverse",
+      "title": "Foto dos bisavós (Agudos, São Paulo, Brasil, 1920)",
+      "paragraphs": [
+        "Foto dos bisavós Giuseppe Perusin e Lucia Squizzato por volta de 1920, em Agudos, São Paulo, Brasil."
+      ],
+      "image": {
+        "src": "grandparents",
+        "alt": "Giuseppe Perusin e Lucia Squizzato",
+        "caption": "Foto gentilmente fornecida pela prima de meu pai, Odélia Perozin."
+      }
+    },
+
+    {
+      "id": "flaminio-perusin-lazara-francisco",
+      "layout": "normal",
+      "title": "Flaminio Perusin e Lazara Francisco (Agudos, São Paulo, Brasil, 1923)",
+      "paragraphs": [
+        "Foto de Flaminio Perusin (irmão de meu avô) e sua esposa Lázara Francisco com a pequena Odélia no colo, por volta de 1924.",
+        "Curiosidade: por razões desconhecidas, Flaminio adotou o nome Emilio no Brasil."
+      ],
+      "image": {
+        "src": "great_uncle_el",
+        "alt": "Flaminio Perusin e Lázara Francisco",
+        "caption": "Esta foto foi gentilmente cedida a mim por minha prima Mariah de Cerqueira Leite, filha de minha prima Odélia Perozin."
+      }
+    },
+
+    {
+      "id": "lucia-squizzato-death",
+      "layout": "reverse",
+      "title": "Falecimento da bisavó (Agudos, São Paulo, Brasil, 1930)",
+      "paragraphs": [
+        "Minha bisavó, Lucia Squizzato, faleceu em 8 de março de 1930, na cidade de Agudos, São Paulo.",
+        "Um detalhe emocionante de sua certidão de óbito é que Flaminio, seu filho caçula, foi quem apareceu como declarante, prestando essa última homenagem à mãe."
+      ],
+      "image": {
+        "src": "death_l",
+        "alt": "Certidão de óbito de Lucia Squizzato",
+        "caption": "Brasil, São Paulo, Registro Civil, 1925-2023, base de dados, FamilySearch (https://familysearch.org/ark:/61903/3:1:3Q9M-CS6F-ZT76?cc=2765317 : 16 April 2022), imagem 1 de 1; Tribunal de Justiça Geral, São Paulo."
+      }
+    },
+
+    {
+      "id": "italia-perusin-family-photo",
+      "layout": "normal",
+      "title": "Família de Italia Perusin (Agudos, São Paulo, Brasil, 1930)",
+      "paragraphs": [
+        "Um tesouro de família: Italia Perusin (irmã de meu avô Romeo) com seu marido Nicola Rossi e seus filhos.",
+        "Esta foto foi tirada por volta de 1930 na antiga fazenda Domélia, que hoje pertence ao município de Agudos, no interior de São Paulo."
+      ],
+      "image": {
+        "src": "great_aunt_i",
+        "alt": "Italia Angela Perusin e família",
+        "caption": "Foto obtida do perfil compartilhado que mantenho com minha prima Renata Silveira Rocha na plataforma MyHeritage. Renata é bisneta de minha tia-avó Italia Perusin."
+      }
+    },
+    {
+      "id": "giulia-perusin-wedding",
+      "layout": "reverse",
+      "title": "Casamento de Giulia Perusin e Caetano Bianchi (Agudos, São Paulo, Brasil, 1935)",
+      "paragraphs": [
+        "Casamento de Giulia Perusin, irmã mais nova de meu avô, e Caetano Bianchi (cerca de 1935). Esta foto reúne grande parte da família Perusin.",
+        "Meu avô Romeo com minha avó Alexandrina e os casais de tio-avô e tia-avó Francesco e Maria Callegaro, Italia e Nicola Rossi, e Flaminio e Lázara, juntamente com seus filhos.",
+        "Também estão presentes convidados e parentes de Caetano. Na primeira fila, o pequeno José — irmão mais velho de meu pai — posa segurando seu chapéu."
+      ],
+      "image": {
+        "src": "wedding_g",
+        "alt": "Casamento de Giulia Perusin e Caetano Bianchi",
+        "caption": "Foto gentilmente fornecida a meu pai por sua prima Odélia Perozin."
+      }
+    },
+
+    {
+      "id": "flaminio-driver-license",
+      "layout": "normal",
+      "title": "Carteira de motorista de Flamínio Perusin (Agudos, São Paulo, Brasil, 1939)",
+      "paragraphs": [
+        "Carteira de motorista de Flaminio Perusin, irmão mais novo de meu avô Romeo, datada de 23 de março de 1939."
+      ],
+      "image": {
+        "src": "great_uncle_e",
+        "alt": "Carteira de motorista de Flaminio Perusin",
+        "caption": "Esta foto foi gentilmente fornecida pela prima Mariah de Cerqueira Leite, filha da prima Odélia Peruzin."
+      }
+    },
+
+    {
+      "id": "family-giulia-perusin",
+      "layout": "reverse",
+      "title": "Família de Giulia Perusin (Agudos, São Paulo, Brasil, 1947)",
+      "paragraphs": [
+        "Agudos, São Paulo, por volta de 1947: retrato de Giulia Perusin (irmã mais nova de Romeo) e seu marido Caetano Bianchi, acompanhados de seus filhos Inez, Felis e Victor.",
+        "Um importante registro da nova geração da família no interior do estado de São Paulo."
+      ],
+      "image": {
+        "src": "family_g",
+        "alt": "Família de Giulia Perusin e Caetano Bianchi",
+        "caption": "Segundo meu pai, esta foto foi um presente de minha tia Giulia Perusin para minha avó Alexandrina."
+      }
+    },
+
+    {
+      "id": "francesco-perusin-photo",
+      "layout": "normal",
+      "title": "Francesco Perusin (Garça, São Paulo, Brasil, 1950)",
+      "paragraphs": [
+        "Foto de Francesco Perusin, irmão mais velho de meu avô Romeo, por volta de 1950."
+      ],
+      "image": {
+        "src": "great_uncle_f",
+        "alt": "Francesco Perusin",
+        "caption": "Esta foto foi gentilmente fornecida a mim pelo filho mais novo de Francesco, Romeo Perozim, que recebeu esse nome em homenagem ao meu avô Romeo Perusin, irmão de Francesco."
+      }
+    },
+
+    {
+      "id": "romeo-perusin-photo",
+      "layout": "reverse",
+      "title": "Romeo Perusin (Pompeia, São Paulo, Brasil, 1950)",
+      "paragraphs": [
+        "Registro fotográfico de meu avô Romeo Perusin por volta da década de 1950."
+      ],
+      "image": {
+        "src": "grandfather",
+        "alt": "Romeo Perusin",
+        "caption": "Esta foto pertenceu à minha avó Alexandrina, esposa de meu avô Romeo."
+      }
+    },
+
+    {
+      "id": "odair-perozin-visit-loreggia",
+      "layout": "normal",
+      "title": "Visita de Odair Perozin a Loreggia (Pádua, Itália)",
+      "paragraphs": [
+        "Em 2015, Odair J. Perozin, de Florianópolis, Santa Catarina, informou-me que havia visitado o lugar onde nossos ancestrais viveram em Loreggia, Pádua, antes de imigrarem para o Brasil.",
+        "Ele visitou a propriedade rural da família Perusin, localizada na Via Morosini, em Loreggia. Odair é descendente de Antônio Perusin — irmão de meu tataravô Pietro Perusin.",
+        "Lá, foi recebido por Silvio Perusin, também descendente de Antônio.",
+        "Após compartilharem um bom vinho, como ele me contou, Silvio, sua esposa e seu filho Adriano compartilharam histórias sobre nossos ancestrais e sobre como todos viveram juntos na mesma grande casa, que ainda existe hoje ao lado da residência de Silvio."
+      ],
+      "image": {
+        "src": "reunion_fml",
+        "alt": "Reunião de família em Loreggia",
+        "caption": "Foto gentilmente fornecida por meu primo Odair. O encontro ocorreu na casa de Silvio Perusin, onde aparecem Silvio, sua esposa e seu filho Adriano Perusin, juntamente com o primo Odair José Perozin."
+      }
+    },
+
+    {
+      "id": "silvio-perusin-milk-producer",
+      "layout": "reverse",
+      "title": "Silvio Perusin, produtor de leite",
+      "paragraphs": [
+        "Segundo Odair J. Perozin, Silvio trabalhava como produtor de leite, como mostra esta fotografia.",
+        "Silvio Perusin faleceu em 2025."
+      ],
+      "image": {
+        "src": "reunion_mlk",
+        "alt": "Silvio Perusin e Odair Perozin",
+        "caption": "Foto gentilmente fornecida pelo primo Odair. Ela mostra Silvio, Odair e as máquinas de ordenha do laticínio."
+      }
+    },
+
+    {
+      "id": "adamantina-old-train-station",
+      "layout": "normal",
+      "title": "Antiga estação ferroviária de Adamantina (Adamantina, São Paulo, Brasil, 2023)",
+      "paragraphs": [
+        "Em 9 de junho de 2023, nossa família — minha esposa, meus pais, meu irmão César e eu — embarcou em uma viagem no tempo até Adamantina, São Paulo. O objetivo era realizar um profundo desejo de meu pai.",
+        "Revisitar o cenário de sua infância. Em 1948, com apenas 6 anos de idade, ele acompanhava meu avô e meu tio João em uma árdua e memorável rotina de trabalho.",
+        "Todos os dias, percorriam os 5 quilômetros que separavam as cidades de Lucélia e Adamantina até os trilhos da ferrovia, carregando marmitas, ferramentas e disposição para trabalhar."
+      ],
+      "image": {
+        "src": "adamantina_on",
+        "alt": "Antiga estação ferroviária de Adamantina",
+        "caption": "Foto da antiga estação ferroviária de Adamantina, pertencente à antiga Companhia Paulista de Estradas de Ferro, seção Panorama."
+      }
+    },
+
+    {
+      "id": "wooden-house-built-by-romeo",
+      "layout": "reverse",
+      "title": "Casa de madeira construída por meu avô Romeo em 1948 (Adamantina, São Paulo, Brasil, 2023)",
+      "paragraphs": [
+        "Meu avô, um habilidoso carpinteiro, havia sido contratado por um engenheiro inglês da Companhia Paulista de Estradas de Ferro para construir quatro casas de madeira diretamente em frente à estação.",
+        "Mais de sete décadas depois, as casas ainda permanecem de pé como testemunho de sua habilidade e dedicação."
+      ],
+      "image": {
+        "src": "adamantina_tw",
+        "alt": "Casa de madeira construída por Romeo Perusin",
+        "caption": "Foto de uma das casas de madeira construídas por meu avô Romeo para a Companhia Paulista de Estradas de Ferro em 1948, em frente à antiga estação ferroviária de Adamantina, São Paulo."
+      }
+    },
+
+    {
+      "id": "family-visit-adamantina",
+      "layout": "normal",
+      "title": "Foto de nossa visita ao local (Adamantina, São Paulo, Brasil, 2023)",
+      "paragraphs": [
+        "Ver meu pai reencontrar aquelas construções foi um momento de imensa emoção; para nós, deixou de ser apenas uma história de família e tornou-se uma realidade viva.",
+        "Foi a prova do legado e do esforço de meu avô, eternizados naquelas tábuas de madeira erguidas diante da antiga estação."
+      ],
+      "image": {
+        "src": "adamantina_tr",
+        "alt": "Visita da família à estação ferroviária de Adamantina",
+        "caption": "Nesta foto: eu, minha esposa, meus pais e meu irmão mais velho César na antiga estação ferroviária de Adamantina, São Paulo, em 9 de junho de 2023."
+      }
+    },
+
+    {
+      "id": "family-reunion-loreggia-2025",
+      "layout": "reverse",
+      "title": "Um reencontro após 128 anos (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Em 2025, ocorreu um acontecimento notável: membros de minha família reencontraram parentes na Itália após 128 anos de separação.",
+        "Esse reencontro simbolizou não apenas a recuperação de laços familiares perdidos, mas também a validação de anos de pesquisas genealógicas.",
+        "O encontro reuniu diferentes gerações e culturas, fortalecendo o sentimento de identidade e pertencimento que transcende fronteiras e o tempo."
+      ],
+      "image": {
+        "src": "reunion_sk",
+        "alt": "Reunião da família Scoizzato em Loreggia",
+        "caption": "Que bela lembrança! Um encontro de gerações e sobrenomes que se entrelaçam. Entre sorrisos, temos Luci (minha irmã), Clodoaldo e Flávio (meu sobrinho), celebrando a vida ao lado de Silvano e Marta Scoizzato e muitos outros parentes que fazem o coração de nossa família bater mais forte."
+      }
+    },
+
+    {
+      "id": "parish-della-purificazione-exterior",
+      "layout": "normal",
+      "title": "Paróquia \"Della Purificazione della B.V. Maria\"",
+      "paragraphs": [
+        "Esta foto possui um significado muito especial. Trata-se da Paróquia \"Della Purificazione della B.V. Maria\", o lugar onde a fé e a história de minha família se cruzam, servindo como local de batismo de muitos de meus ancestrais Perusin e Squizzato."
+      ],
+      "image": {
+        "src": "parish_on",
+        "alt": "Paróquia Della Purificazione della B.V. Maria",
+        "caption": "Registro do exterior da Paróquia \"Della Purificazione della B.V. Maria\", em Loreggia, Pádua. Um lugar de grande valor histórico e emocional, onde muitos de nossos ancestrais foram batizados."
+      }
+    },
+
+    {
+      "id": "scoizzato-family-reunion-parish",
+      "layout": "reverse",
+      "title": "Reunião da família Scoizzato em Loreggia (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Membros de minha família com nossos parentes Scoizzato em frente à igreja paroquial \"Della Purificazione della B.V. Maria\"."
+      ],
+      "image": {
+        "src": "parish_tw",
+        "alt": "Reunião da família Scoizzato em frente à igreja paroquial",
+        "caption": "Um registro histórico e emocionante de membros de minha família com nossos parentes Scoizzato diante da Paróquia \"Della Purificazione della B.V. Maria\", em Loreggia, Pádua."
+      }
+    },
+
+    {
+      "id": "parish-family-gathering",
+      "layout": "normal",
+      "title": "Paróquia \"Della Purificazione della B.V. Maria\" (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Membros de nossa família e da família Scoizzato reunidos no interior da Paróquia de Loreggia.",
+        "Um momento belo e simbólico, registrado graças à hospitalidade do padre local, que abriu as portas da igreja especialmente para eles."
+      ],
+      "image": {
+        "src": "parish_tr",
+        "alt": "Reunião familiar no interior da igreja paroquial",
+        "caption": "Um registro histórico e emocionante de membros de minha família com nossos parentes Scoizzato no interior da Paróquia \"Della Purificazione della B.V. Maria\", em Loreggia, Pádua."
+      }
+    },
+
+    {
+      "id": "parish-interior-view",
+      "layout": "reverse",
+      "title": "Paróquia \"Della Purificazione della B.V. Maria\" (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Uma vista deslumbrante do interior da nostálgica Paróquia da Purificação da Bem-Aventurada Virgem Maria.",
+        "Cada detalhe deste santuário parece preservar as memórias e a fé de nossos ancestrais."
+      ],
+      "image": {
+        "src": "parish_fr",
+        "alt": "Interior da Paróquia Della Purificazione della B.V. Maria",
+        "caption": "Vista impressionante do interior da nostálgica Paróquia \"Della Purificazione della B.V. Maria\"."
+      }
+    },
+
+    {
+      "id": "gift-from-marta-squizzato",
+      "layout": "normal",
+      "title": "Um precioso presente recebido da prima Marta Squizzato (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Um precioso presente recebido da prima Marta Squizzato: um livro personalizado narrando as origens da Paróquia da Purificação da Bem-Aventurada Virgem Maria.",
+        "Um belo e antigo relato que se entrelaça com a própria história de Loreggia e da região do Vêneto desde os tempos mais remotos."
+      ],
+      "image": {
+        "src": "parish_fv",
+        "alt": "Livro sobre a história da paróquia",
+        "caption": "Um livro personalizado narrando as origens da Paróquia da Purificação da Bem-Aventurada Virgem Maria — um belo e antigo relato entrelaçado com a história de Loreggia e do Vêneto desde tempos remotos."
+      }
+    },
+
+    {
+      "id": "perusin-family-reunion",
+      "layout": "reverse",
+      "title": "Um emocionante reencontro com a família Perusin (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "O destino escreveu um novo capítulo em nossa história: após 130 anos de saudade e distância, nossa família finalmente reencontrou nossos parentes Perusin na Itália.",
+        "O cenário não poderia ser mais simbólico: a histórica propriedade da família Perusin, anteriormente conhecida como Contrada Via Sparella, que um dia abrigou nossos ancestrais."
+      ],
+      "image": {
+        "src": "perusin_on",
+        "alt": "Reencontro da família Perusin em Loreggia",
+        "caption": "Foto com Adriano Perusin (filho de Silvio, falecido em 2025), Helio Perusin e sua esposa, minha irmã, meu cunhado e meu sobrinho."
+      }
+    },
+
+    {
+      "id": "old-perusin-mansion",
+      "layout": "normal",
+      "title": "Antigo casarão onde viveram nossos ancestrais (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Calorosamente recebida por Adriano — filho do falecido Silvio e descendente de Antonio Perusin, irmão de meu tataravô Pietro — nossa família cruzou a entrada do antigo casarão onde tudo começou.",
+        "Percorrer os mesmos cômodos de onde partiram nossos ancestrais imigrantes foi um mergulho em um mar de emoções; uma experiência única capaz de unir passado e presente sob o mesmo teto."
+      ],
+      "image": {
+        "src": "perusin_tw",
+        "alt": "Antigo casarão da família Perusin",
+        "caption": "O antigo casarão onde provavelmente viveram nossos ancestrais antes de imigrarem para o Brasil, localizado na antiga Contrada Sparella."
+      }
+    },
+
+    {
+      "id": "outer-pavilion-old-mansion",
+      "layout": "reverse",
+      "title": "Pavilhão externo do antigo casarão (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "O sorriso e a emoção de minha irmã Luciene ao visitar o casarão onde nosso avô nasceu.",
+        "Um encontro inesquecível com nossas raízes e com a história que nos trouxe até aqui."
+      ],
+      "image": {
+        "src": "perusin_tr",
+        "alt": "Pavilhão externo do antigo casarão",
+        "caption": "Vista externa do casarão onde nasceu nosso avô."
+      }
+    },
+
+    {
+      "id": "interior-old-mansion",
+      "layout": "normal",
+      "title": "Interior do antigo casarão (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Nossa família teve o privilégio de entrar nos cômodos do casarão onde nossos ancestrais viveram. É emocionante imaginar a vida dentro daquelas paredes.",
+        "Meu pai se recorda das histórias contadas por meu avô Romeo: durante os rigorosos invernos, os animais eram trazidos para dentro da casa para que o calor compartilhado ajudasse a aquecer o ambiente. Uma mistura de emoções que nos conecta profundamente às nossas raízes."
+      ],
+      "image": {
+        "src": "perusin_fr",
+        "alt": "Interior do antigo casarão da família Perusin",
+        "caption": "Vista interna de um dos cômodos do casarão."
+      }
+    },
+
+    {
+      "id": "historic-tools-inside-mansion",
+      "layout": "reverse",
+      "title": "Interior do casarão (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Detalhes que contam a história do passado: o interior deste cômodo preserva implementos agrícolas centenários.",
+        "Ver essas ferramentas rústicas de perto nos ajuda a reconstruir a história do esforço e da dedicação de nossa família em Loreggia."
+      ],
+      "image": {
+        "src": "perusin_fv",
+        "alt": "Ferramentas agrícolas históricas dentro do casarão",
+        "caption": "Outra vista de um dos cômodos do casarão. O interior preserva implementos agrícolas e objetos do cotidiano com séculos de história."
+      }
+    },
+
+    {
+      "id": "photo-near-old-mansion",
+      "layout": "normal",
+      "title": "Foto próxima às paredes do antigo casarão (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "Uma bela recordação: membros de minha família junto de Adriano Perusin e seus familiares."
+      ],
+      "image": {
+        "src": "perusin_sx",
+        "alt": "Foto da família próxima ao antigo casarão",
+        "caption": "Membros de minha família junto de Adriano Perusin e sua família."
+      }
+    },
+
+    {
+      "id": "old-contrada-via-sparella",
+      "layout": "reverse",
+      "title": "Antiga Contrada Via Sparella (Loreggia, Pádua, Itália, 2025)",
+      "paragraphs": [
+        "A atual Via Morosini — anteriormente conhecida como Contrada Via Sparella — vista sob uma nova perspectiva, com as residências de parte da família Perusin que não imigrou para o Brasil visíveis ao fundo.",
+        "Esta paisagem preserva uma história de 176 anos que começou por volta de 1840, quando nossos ancestrais deixaram Resana, Treviso, para se estabelecer em Loreggia, Pádua.",
+        "Uma parte de nós permanece ali até hoje, honrando a memória daqueles que, impulsionados pelas circunstâncias de sua época, buscaram um novo destino."
+      ],
+      "image": {
+        "src": "perusin_sv",
+        "alt": "Antiga Contrada Via Sparella em Loreggia",
+        "caption": "A atual Via Morosini em Loreggia, Pádua, anteriormente chamada Via Sparella. Ao fundo estão a propriedade agrícola e as residências da atual família Perusin."
+      }
+    },
+
+    {
+      "id": "perusin-agricultural-farm",
+      "layout": "normal",
+      "title": "Propriedade agrícola da família Perusin",
+      "paragraphs": [
+        "Mapa da propriedade agrícola da família Perusin, atualmente localizada na Via Morosini.",
+        "O local provavelmente corresponde à antiga Contrada Via Sparella, onde nossos ancestrais viveram antes de imigrarem para o Brasil."
+      ],
+      "image": {
+        "src": "maps_per",
+        "alt": "Mapa da propriedade agrícola da família Perusin",
+        "caption": "Imagem do Google Maps da propriedade agrícola da família Perusin em Loreggia, Pádua, Itália."
+      }
+    },
+
+    {
+      "id": "scientific-research-dna-evidence",
+      "layout": "reverse",
+      "title": "Pesquisa científica e evidências de DNA",
+      "paragraphs": [
+        "As análises modernas de DNA reforçaram as origens europeias da família. Os resultados dos testes genéticos indicam uma forte presença de ancestralidade do sul e centro da Europa, com componentes italianos e mediterrâneos significativos.",
+        "Plataformas como MyHeritage e Genera ajudaram a confirmar conexões biológicas entre diferentes ramos da família, fornecendo suporte científico às pesquisas históricas e genealógicas.",
+        "Estudos adicionais envolvendo documentos históricos, distribuição de sobrenomes e rotas migratórias sugerem possíveis ligações entre o norte da Itália, a Áustria (Ístria e Küstenland) e movimentos mais antigos vindos do centro da Itália."
+      ],
+      "image": {
+        "src": "dna",
+        "alt": "Análise de DNA e pesquisa genealógica",
+        "caption": "Meus dados de DNA coincidiram com os dados de Edson Scuciatto, residente em Curitiba, Paraná, Brasil. Essa informação foi obtida por meio da plataforma genealógica MyHeritage. Nossos ancestrais em comum foram Giovanni Squizzato e Angela Cucca Dal Broi."
+      }
+    },
+
+    {
+      "id": "parents-golden-wedding-anniversary",
+      "layout": "normal",
+      "title": "Nossa Família (Brotas, São Paulo, Brasil, 2021)",
+      "paragraphs": [
+        "Em 6 de março de 2021, celebramos o amor e a perseverança enquanto meus pais comemoravam suas bodas de ouro.",
+        "Em uma ocasião tão memorável, nossa família reuniu-se juntamente com os parentes de minha mãe para homenagear essa jornada de meio século.",
+        "Foram momentos de pura gratidão e alegria que agora permanecem para sempre em nossas memórias como um exemplo vivo de união familiar."
+      ],
+      "image": {
+        "src": "bodas",
+        "alt": "Bodas de ouro de meus pais",
+        "caption": "Nesta foto estão meus pais, eu e meus irmãos, juntamente com nossos cônjuges e filhos."
+      }
+    },
+
+    {
+      "id": "family-christmas-2025",
+      "layout": "reverse",
+      "title": "Nossa Família (Tatuí, São Paulo, Brasil, 2025)",
+      "paragraphs": [
+        "Em dezembro de 2025, nossa família e outros parentes reuniram-se para celebrar o Natal na casa de meu irmão Samuel, na cidade de Tatuí, São Paulo."
+      ],
+      "image": {
+        "src": "christmas",
+        "alt": "Celebração de Natal em família",
+        "caption": "Nesta foto estão meus pais (Aparecido Perusin e Luzinete), eu e meus irmãos Marcelo, Samuel, Luciene, César e eu mesmo."
+      }
+    },
+
+    {
+      "id": "family-birthday-celebration",
+      "layout": "normal",
+      "title": "Nossa Família (Mauá, São Paulo, Brasil, 2026)",
+      "paragraphs": [
+        "Em abril de 2020, nossa família reuniu-se com vários parentes maternos e paternos para celebrar o aniversário da bisneta de meu avô Romeo.",
+        "Ela é neta de seu filho caçula, Carlos Perusin. Foi uma bela comemoração, e passamos momentos maravilhosos juntos em família."
+      ],
+      "image": {
+        "src": "birthday_a",
+        "alt": "Celebração de aniversário de Ana Vidotto Perusin",
+        "caption": "Esta foto mostra meus pais, eu, meus irmãos e nossos cônjuges."
+      }
+    }
+  ],
+
+  "highlight": {
+    "title": "🌳 Transformando Dados em História",
+    "paragraph": "Este projeto transforma genealogia em uma experiência interativa, onde cada nó representa uma vida e cada conexão conta uma história."
+  },
+
+  "footer": {
+    "quote": "Não somos apenas nomes em uma árvore. Somos histórias esperando para serem contadas."
+  },
+
+  "scrollTop": {
+    "label": "Voltar ao topo"
+  }
+}
