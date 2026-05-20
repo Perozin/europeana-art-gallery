@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="./src/assets/readme/hero_screenshot_dark.png" alt="Art Gallery Explorer Preview" />
+  [![Art Gallery Explorer](./src/assets/readme/hero_screenshot_dark.png)](https://europeana-art-gallery.vercel.app/)
 </p>
 
 > 🎯 Interactive multilingual cultural exploration platform built with React, Vite, D3.js, and the Europeana API.
@@ -21,6 +21,12 @@
   🇮🇹 <a href="#-italiano">Italiano</a> |
   🇩🇪 <a href="#-deutsch">Deutsch</a>
 </p>
+
+---
+
+## 🚀 Live Application
+
+🌐 [Open Art Gallery Explorer](https://europeana-art-gallery.vercel.app/)
 
 ---
 
