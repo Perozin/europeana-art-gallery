@@ -9,9 +9,7 @@
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow" />
 </p>
 
-<p align="center">
-  [![Art Gallery Explorer](https://raw.githubusercontent.com/Perozin/europeana-art-gallery/stage-react-api/readme-assets/genealogy_page_dark.png)](https://europeana-art-gallery-git-stage-react-api-perozins-projects.vercel.app/)
-</p>
+[![Art Gallery Explorer](https://raw.githubusercontent.com/Perozin/europeana-art-gallery/stage-react-api/readme-assets/genealogy_page_dark.png)](https://europeana-art-gallery-git-stage-react-api-perozins-projects.vercel.app/)
 
 > 🎯 Interactive multilingual cultural exploration platform built with React, Vite, D3.js, and the Europeana API.
 
