@@ -116,48 +116,49 @@ O projeto foi estruturado utilizando arquitetura baseada em componentes reutiliz
 
 ## 🎥 Demonstração em Vídeo
 
-### 🎬 Video 1 — Visão Geral + Arquitetura
+### 🎬 Video 1 — Overview + Architecture
 
-[▶️ Assistir ao Vídeo 1](https://www.loom.com/share/7f33bf24bdcd4edfa4e59e9911dd852b)
+[▶️ Watch Video 1](https://www.loom.com/share/7f33bf24bdcd4edfa4e59e9911dd852b)
 
-Este vídeo apresenta:
+This video presents:
 
-* Visão geral do projeto
-* Arquitetura React + Vite
-* Integração com a API da Europeana
-* Sistema de internacionalização
-* Estrutura do projeto
-* Design responsivo
-
----
-
-### 🎬 Video 2 — Recursos + Experiência do Usuário
-
-[▶️ Assista ao Vídeo 2](https://www.loom.com/share/1a935f1059a8477bb37829d9ee13674b)
-
-Este vídeo demonstra:
-
-* Experiência de busca
-* Filtros
-* Páginas de detalhes da obra de arte
-* Carregamento lento (lazy loading)
-* Suporte multilíngue
-* Navegação e acessibilidade
+* Project overview
+* React + Vite architecture
+* Europeana API integration
+* Internationalization system
+* Project structure
+* Responsive design
 
 ---
 
-### 🎬 Video 3 — Genealogia + História + D3
+### 🎬 Video 2 — Features + User Experience
 
-[▶️ Assista ao Vídeo 3](https://www.loom.com/share/d6219fbebce34402b2e4c0fabc17d403)
+[▶️ Watch Video 2](https://www.loom.com/share/1a935f1059a8477bb37829d9ee13674b)
 
-Este vídeo demonstra:
+This video demonstrates:
 
-* Narrativa genealógica
-* Visualização interativa de árvores genealógicas
-* Renderização com D3.js
-* Layouts dinâmicos
-* Galerias de imagens históricas
-* Exploração cultural
+* Search experience
+* Filters
+* Artwork details pages
+* Favorites system
+* Lazy loading
+* Multilingual support
+* Navigation and accessibility
+
+---
+
+### 🎬 Video 3 — Genealogy + Story + D3
+
+[▶️ Watch Video 3](https://www.loom.com/share/d6219fbebce34402b2e4c0fabc17d403)
+
+This video demonstrates:
+
+* Genealogy storytelling
+* Interactive family tree visualization
+* D3.js rendering
+* Dynamic layouts
+* Historical image galleries
+* Cultural exploration
 
 ⬆ [Voltar ao topo](#-table-of-contents)
 
@@ -165,51 +166,51 @@ Este vídeo demonstra:
 
 ## 📸 Demonstração Visual
 
-### 🌍 Interface Hero
+### 🌍 Hero Interface
 
-![Interface Hero](./src/assets/readme/hero_screenshot_dark.png)
-
----
-
-### 🔎 Experiência de Pesquisa
-
-![Experiência de Pesquisa](./src/assets/readme/search_experience.png)
+![Hero Interface](./src/assets/readme/hero_screenshot_dark.png)
 
 ---
 
-### 🎨 Página de detalhes da obra de arte
+### 🔎 Search Experience
 
-![Detalhes da Obra de Arte](./src/assets/readme/artwork_details_page.png)
-
----
-
-### 🌍 Sistema multilíngue
-
-![Sistema Multilíngue](./src/assets/readme/multilingual_system.png)
+![Search Experience](./src/assets/readme/search_experience.png)
 
 ---
 
-### 🌳 Narrativa Genealógica
+### 🎨 Artwork Details Page
 
-![História Genealogica](./src/assets/readme/genealogy_story.png)
-
----
-
-### 🌳 Página de Genealogia
-
-![Página de Genealogia](./src/assets/readme/genealogy_page.png)
+![Artwork Details](./src/assets/readme/artwork_details_page.png)
 
 ---
 
-### 🌳 Visualização de Árvore D3 — Zoom
+### 🌍 Multilingual System
 
-![Zoom da árvore D3](./src/assets/readme/d3_tree_visualization_zoom.png)
+![Multilingual System](./src/assets/readme/multilingual_system.png)
 
 ---
 
-### 🌳 Visualização de árvore D3 — Panorâmica
+### 🌳 Genealogy Storytelling
 
-![Árvore Panorâmica D3](./src/assets/readme/d3_tree_visualization_pan.png)
+![Genealogy Story](./src/assets/readme/genealogy_story.png)
+
+---
+
+### 🌳 Genealogy Page
+
+![Genealogy Page](./src/assets/readme/genealogy_page.png)
+
+---
+
+### 🌳 D3 Tree Visualization — Zoom
+
+![D3 Tree Zoom](./src/assets/readme/d3_tree_visualization_zoom.png)
+
+---
+
+### 🌳 D3 Tree Visualization — Pan
+
+![D3 Tree Pan](./src/assets/readme/d3_tree_visualization_pan.png)
 
 ⬆ [Voltar ao topo](#-table-of-contents)
 
@@ -477,6 +478,7 @@ In addition to the digital gallery experience, the project also includes:
 * Multilingual support
 * Genealogy storytelling
 * D3.js family tree visualization
+* Favorites system
 * Dynamic navigation
 * Lazy loading
 * Scalable architecture for future backend integration
@@ -537,6 +539,7 @@ This video demonstrates:
 * Search experience
 * Filters
 * Artwork details pages
+* Favorites system
 * Lazy loading
 * Multilingual support
 * Navigation and accessibility
@@ -874,6 +877,7 @@ L'applicazione integra l'API pubblica di Europeana per consentire l'esplorazione
 * Supporto multilingue
 * Storytelling genealogico
 * Visualizzazione D3.js
+* Sistema di preferiti
 * Design responsivo
 * Architettura scalabile
 
@@ -908,6 +912,7 @@ Die Anwendung integriert die öffentliche Europeana-API, um Kunstwerke, historis
 * Mehrsprachiges System
 * Genealogisches Storytelling
 * D3.js-Visualisierung
+* Favoritensystem
 * Responsives Design
 * Skalierbare Architektur
 
