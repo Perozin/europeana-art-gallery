@@ -6,6 +6,7 @@ import * as d3 from "d3";
 
 import { useFormValidation } from "../../hooks/useFormValidation";
 import { saveFamilyData, getFamilyData } from "../../utils/storage";
+import defaultTree from "../../data/defaultTree.json";
 
 import "../../blocks/genealogyTree.css";
 
@@ -35,7 +36,7 @@ export default function GenealogyTreeD3({
     place: null,
     born: "date",
     death: "date",
-    image: "image",
+    photo: "image",
     file: null,
   };
 
@@ -55,7 +56,7 @@ export default function GenealogyTreeD3({
       place: "",
       born: "",
       death: "",
-      image: "",
+      photo: "",
       file: "",
       showImage: false,
     },
@@ -68,7 +69,13 @@ export default function GenealogyTreeD3({
   /* ================= API ================= */
   useEffect(() => {
     const saved = getFamilyData();
-    if (saved) setData(saved);
+
+    if (saved) {
+      setData(saved);
+    } else {
+      setData(defaultTree);
+      saveFamilyData(defaultTree);
+    }
   }, [setData]);
 
   /* ================= D3 ================= */
@@ -300,17 +307,17 @@ export default function GenealogyTreeD3({
           .merge(node)
           .select(".genealogy-tree__photo")
           .attr("href", (d) => {
-            const img = d.data.showImage ? d.data.image : null;
+            const img = d.data.showImage ? d.data.photo : null;
             if (!img || img.startsWith("blob:")) return null;
             return img;
           })
           .attr("xlink:href", (d) => {
-            const img = d.data.showImage ? d.data.image : null;
+            const img = d.data.showImage ? d.data.photo : null;
             if (!img || img.startsWith("blob:")) return null;
             return img;
           })
           .attr("visibility", (d) =>
-            d.data.showImage && d.data.image ? "visible" : "hidden",
+            d.data.showImage && d.data.photo ? "visible" : "hidden",
           );
 
         /* TEXT */
@@ -402,15 +409,15 @@ export default function GenealogyTreeD3({
           .filter((d) => d.data.spouse)
           .selectAll(".genealogy-tree__photo--spouse")
           .attr("href", (d) => {
-            const img = d.data.spouse?.showImage ? d.data.spouse?.image : null;
+            const img = d.data.spouse?.showImage ? d.data.spouse?.photo : null;
             return img && !img.startsWith("blob:") ? img : null;
           })
           .attr("xlink:href", (d) => {
-            const img = d.data.spouse?.showImage ? d.data.spouse?.image : null;
+            const img = d.data.spouse?.showImage ? d.data.spouse?.photo : null;
             return img && !img.startsWith("blob:") ? img : null;
           })
           .attr("visibility", (d) =>
-            d.data.spouse?.showImage && d.data.spouse?.image
+            d.data.spouse?.showImage && d.data.spouse?.photo
               ? "visible"
               : "hidden",
           )
@@ -521,7 +528,7 @@ export default function GenealogyTreeD3({
 
     setValues((prev) => ({
       ...prev,
-      image: resizedImage,
+      photo: resizedImage,
       fileName: file.name,
     }));
   }
@@ -761,12 +768,12 @@ export default function GenealogyTreeD3({
     return {
       ...person,
 
-      image: undefined,
+      photo: undefined,
 
       spouse: person.spouse
         ? {
             ...removeImages(person.spouse),
-            image: undefined,
+            photo: undefined,
           }
         : null,
 
@@ -847,7 +854,7 @@ export default function GenealogyTreeD3({
 
             <div className="genealogy-tree__modal-body">
               <img
-                src={values.image || "/default-avatar.png"}
+                src={values.photo || "/default-avatar.png"}
                 className="genealogy-tree__modal-image"
               />
 
@@ -1081,18 +1088,18 @@ export default function GenealogyTreeD3({
                   )}
 
                   <input
-                    name="image"
-                    value={values.image || ""}
+                    name="photo"
+                    value={values.photo || ""}
                     onChange={handleFormChange}
                     onBlur={handleBlur}
                     placeholder={t("image")}
                     className={`genealogy-tree__modal-input ${
-                      errors.image && touched.image ? "input-error" : ""
+                      errors.photo && touched.photo ? "input-error" : ""
                     }`}
                   />
 
-                  {errors.image && touched.image && (
-                    <span className="input-error-message">{errors.image}</span>
+                  {errors.photo && touched.photo && (
+                    <span className="input-error-message">{errors.photo}</span>
                   )}
 
                   <label className="genealogy-tree__upload">
