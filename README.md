@@ -15,6 +15,7 @@
   <strong>🎯 Click the image above to open the live project</strong><br/>  
 </p>
 
+---
 
 > 💡 Interactive multilingual cultural exploration platform built with React, Vite, D3.js, and the Europeana API.
 
@@ -25,6 +26,7 @@
   🇩🇪 <a href="#-deutsch">Deutsch</a>
 </p>
 
+---
 
 # 📑 Table of Contents
 
