@@ -26,8 +26,6 @@
   🇩🇪 <a href="#-deutsch">Deutsch</a>
 </p>
 
----
-
 # 📑 Table of Contents
 
 * 🇧🇷 [Português](#-português)
